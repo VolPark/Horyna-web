@@ -1,0 +1,2477 @@
+# Translation of Plugins - WP Statistics - Stable (latest release) in Czech
+# This file is distributed under the same license as the Plugins - WP Statistics - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2023-02-26 13:16:15+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n >= 2 && n <= 4) ? 1 : 2);\n"
+"X-Generator: GlotPress/4.0.0-alpha.6\n"
+"Language: cs_CZ\n"
+"Project-Id-Version: Plugins - WP Statistics - Stable (latest release)\n"
+
+#: includes/class-wp-statistics-user-agent.php:108
+msgctxt "Device Model"
+msgid "Unknown"
+msgstr "Neznámý"
+
+#: includes/admin/meta-box/wp-statistics-meta-box-models.php:52
+#: includes/class-wp-statistics-user-agent.php:43
+msgctxt "Model"
+msgid "Unknown"
+msgstr "Neznámý"
+
+#: includes/admin/meta-box/wp-statistics-meta-box-devices.php:52
+#: includes/class-wp-statistics-user-agent.php:42
+msgctxt "Device"
+msgid "Unknown"
+msgstr "Neznámý"
+
+#: includes/admin/templates/settings/general.php:206
+msgid "Enable this option to show the hits in post content"
+msgstr "Povolením této možnosti zobrazíte zhlédnutí v obsahu příspěvku"
+
+#: includes/admin/templates/settings/general.php:194
+msgid "Enable this option to show hits on the edit page » Publish meta box of all post types"
+msgstr "Povolením této možnosti zobrazíte zhlédnutí na stránce úprav » Publikovat meta pole všech typů příspěvků"
+
+#: includes/admin/templates/settings/general.php:188
+msgid "Hits in Publish Metabox"
+msgstr "Zhlédnutí v Publish Metabox"
+
+#: includes/admin/templates/settings/general.php:182
+msgid "Disable showing the hits column in list pages."
+msgstr "Zakázat zobrazování sloupce zhlédnutí na stránkách seznamu."
+
+#: includes/admin/templates/settings/general.php:171
+msgid "Disable showing the hits chart metabox in the edit pages."
+msgstr "Zakázat zobrazování metaboxu zhlédnutí na stránkách úprav."
+
+#: includes/admin/templates/settings/general.php:165
+msgid "Hits Chart Metabox"
+msgstr "Metabox schémat zhlédnutí"
+
+#: includes/admin/templates/layout/tabs-settings.php:8
+msgid "Roles"
+msgstr "Uživatelské úrovně"
+
+#: includes/admin/meta-box/wp-statistics-meta-box-hits.php:81
+#: includes/admin/meta-box/wp-statistics-meta-box-pages-chart.php:72
+msgid "Hits from %s to %s"
+msgstr "Zhlédnutí od %s do %s"
+
+#: includes/admin/meta-box/wp-statistics-meta-box-pages-chart.php:70
+msgid "Hits in the in the last %s days"
+msgstr "Zhlédnutí za posledních %s dnů"
+
+#: includes/admin/templates/settings/access-level.php:9
+msgid "User Roles"
+msgstr "Uživatelské úrovně"
+
+#: includes/admin/templates/settings/reset.php:5
+msgid "WP Statistics Reset Options"
+msgstr "WP-Statistics reset nastavení"
+
+#: includes/admin/templates/settings/overview-display.php:20
+msgid "Dashboard Widgets:"
+msgstr "Widgety na nástěnce:"
+
+#: includes/admin/templates/settings/visitor-ip.php:144
+msgid "e.g. <code>HTTP_CF_CONNECTING_IP</code> in CloudFlare."
+msgstr "e.g. <code>HTTP_CF_CONNECTING_IP</code> v CloudFlare."
+
+#: includes/admin/templates/settings/exclusions.php:100
+msgid "Add"
+msgstr "Přidat"
+
+#: includes/admin/templates/settings/exclusions.php:12
+msgid "It generates a lot of data, not only actual user visits but also shows the total number of your site’s hits."
+msgstr "Generuje mnoho dat, nejen skutečné návštěvy uživatelů, ale také ukazuje celkový počet návštěv vašeho webu."
+
+#: includes/admin/class-wp-statistics-admin-assets.php:406
+msgid "Done"
+msgstr "Hotovo"
+
+#: includes/admin/class-wp-statistics-admin-assets.php:322
+#: includes/admin/templates/pages/online.php:23
+#: includes/admin/templates/pages/top-visitors.php:29
+#: includes/admin/templates/pages/visitors.php:42
+msgid "User"
+msgstr "Uživatel"
+
+#: includes/admin/class-wp-statistics-admin-assets.php:321
+msgid "Please Wait ..."
+msgstr "Čekejte, prosím..."
+
+#: includes/admin/class-wp-statistics-admin-assets.php:320
+msgid "Please enter a valid ip."
+msgstr "Prosím zadejte validní IP."
+
+#: includes/admin/class-wp-statistics-admin-assets.php:309
+msgid "Custom"
+msgstr "Vlastní"
+
+#: includes/admin/class-wp-statistics-admin-template.php:70
+msgid "Template not found."
+msgstr "Šablona nenalezena."
+
+#: includes/admin/pages/class-wp-statistics-admin-page-category.php:93
+msgid "Top posts Sorted by Hits in this category"
+msgstr "Nejlepší příspěvky seřazené podle zhlédnutí v této rubrice"
+
+#: includes/admin/pages/class-wp-statistics-admin-page-category.php:82
+msgid "Top Category Sorted by Hits"
+msgstr "Nejlepší rubriky seřazené podle zhlédnutí"
+
+#: includes/admin/pages/class-wp-statistics-admin-page-authors.php:73
+msgid "Top posts Sorted by Hits from the author"
+msgstr "Nejlepší příspěvky seřazené podle zhlédnutí od autora"
+
+#: includes/admin/pages/class-wp-statistics-admin-page-authors.php:62
+msgid "Top Author Sorted by Hits"
+msgstr "Nejlepší autor seřazený podle zhlédnutí"
+
+#: includes/admin/pages/class-wp-statistics-admin-page-tags.php:94
+msgid "Top posts Sorted by Hits in this tag"
+msgstr "Nejlepší příspěvky seřazené podle zhlédnutí v tomto stítku"
+
+#: includes/admin/pages/class-wp-statistics-admin-page-tags.php:83
+msgid "Top Tag Sorted by Hits"
+msgstr "Nejlepší štítek seřazený podle zhlédnutí"
+
+#: includes/class-wp-statistics-helper.php:778
+msgid "Category"
+msgstr "Rubrika"
+
+#: includes/class-wp-statistics-meta-box.php:275
+msgid "Pages Hits"
+msgstr "Stránka zhlédnutí"
+
+#: includes/admin/templates/pages/page-chart.php:30
+#: includes/class-wp-statistics-meta-box.php:108
+msgid "Top Platforms"
+msgstr "Nejlepší platforma"
+
+#: includes/class-wp-statistics-exclusion.php:33
+msgid "Honeypot"
+msgstr "Honeypot"
+
+#: includes/class-wp-statistics-exclusion.php:28
+msgid "404"
+msgstr "404"
+
+#: includes/class-wp-statistics-exclusion.php:27
+#: includes/class-wp-statistics-pages.php:365
+msgid "Feed"
+msgstr "Zdroj"
+
+#: includes/class-wp-statistics-exclusion.php:21
+msgid "Broken Link"
+msgstr "Nefunkční odkaz"
+
+#: includes/class-wp-statistics-exclusion.php:18
+msgid "Cron job"
+msgstr "Cron úloha"
+
+#: includes/class-wp-statistics-exclusion.php:17
+msgid "Ajax"
+msgstr "Ajax"
+
+#: includes/admin/templates/settings/visitor-ip.php:19
+msgid "Value"
+msgstr "Hodnota"
+
+#: includes/admin/templates/settings/visitor-ip.php:18
+msgid "$_SERVER"
+msgstr "$_SERVER"
+
+#: includes/admin/templates/optimization/resources.php:292
+msgid "Server Info"
+msgstr "Informace o serveru"
+
+#: includes/class-wp-statistics-pages.php:387
+msgid "Post Archive"
+msgstr "Archiv příspěvků"
+
+#: includes/class-wp-statistics-pages.php:374
+msgid "404 not found"
+msgstr "Chyba 404 - nenalezeno"
+
+#: includes/class-wp-statistics-pages.php:371
+msgid "Search Page"
+msgstr "Stránka vyhledávání"
+
+#: includes/class-wp-statistics-pages.php:352
+msgid "Home Page"
+msgstr "Úvodní stránka"
+
+#: includes/admin/class-wp-statistics-admin-template.php:182
+msgid "&raquo;"
+msgstr "&raquo;"
+
+#: includes/admin/class-wp-statistics-admin-template.php:181
+msgid "&laquo;"
+msgstr "&laquo;"
+
+#: includes/class-wp-statistics-user-agent.php:65
+msgid "Firefox"
+msgstr "Firefox"
+
+#: includes/class-wp-statistics-user-agent.php:64
+msgid "Chrome"
+msgstr "Chrome"
+
+#: includes/admin/templates/pages/top.refer.php:20
+msgid "Rating"
+msgstr "Hodnocení"
+
+#: includes/class-wp-statistics-user-agent.php:69
+msgid "Safari"
+msgstr "Safari"
+
+#: includes/class-wp-statistics-user-agent.php:68
+msgid "Opera"
+msgstr "Opera"
+
+#: includes/admin/templates/settings/general.php:200
+msgid "Hits in Single Pages"
+msgstr "Zhlédnutí na jedné stránce"
+
+#: includes/admin/templates/settings/general.php:177
+msgid "Hits Column"
+msgstr "Sloupec zhlédnutí"
+
+#: includes/admin/class-wp-statistics-admin-assets.php:282
+#: includes/admin/templates/pages/online.php:46
+#: includes/admin/templates/pages/pages.php:44
+#: includes/admin/TinyMCE/class-wp-statistics-tinymce.php:65
+msgid "ID"
+msgstr "ID"
+
+#: includes/admin/TinyMCE/class-wp-statistics-tinymce.php:63
+msgid "Format"
+msgstr "Formát"
+
+#: includes/admin/TinyMCE/class-wp-statistics-tinymce.php:61
+msgid "Provider"
+msgstr "Poskytovatel"
+
+#: includes/admin/TinyMCE/class-wp-statistics-tinymce.php:58
+msgid "Year"
+msgstr "Rok"
+
+#: includes/admin/TinyMCE/class-wp-statistics-tinymce.php:57
+msgid "Month"
+msgstr "Měsíc"
+
+#: includes/admin/TinyMCE/class-wp-statistics-tinymce.php:56
+msgid "Week"
+msgstr "Týden"
+
+#: includes/admin/TinyMCE/class-wp-statistics-tinymce.php:53
+msgid "Select item ..."
+msgstr "Vyberte položku..."
+
+#: includes/admin/class-wp-statistics-admin-assets.php:276
+#: includes/admin/TinyMCE/class-wp-statistics-tinymce.php:52
+msgid "Time"
+msgstr "Čas"
+
+#: includes/admin/TinyMCE/class-wp-statistics-tinymce.php:35
+msgid "Stat"
+msgstr "Statistiky"
+
+#: includes/admin/TinyMCE/class-wp-statistics-tinymce.php:34
+msgid "WP Statistics Shortcodes"
+msgstr "WP-Statistics Shortcodes"
+
+#: includes/admin/class-wp-statistics-admin-assets.php:290
+#: includes/admin/templates/pages/online.php:22
+#: includes/admin/templates/pages/top-visitors.php:30
+#: includes/admin/templates/pages/visitors.php:50
+#: includes/admin/templates/pages/words.php:36
+#: includes/admin/TinyMCE/class-wp-statistics-tinymce.php:50
+#: includes/class-wp-statistics-shortcode.php:182
+msgid "Referrer"
+msgstr "Odkazující"
+
+#: includes/admin/templates/settings/privacy.php:14
+msgid "Anonymize IP Addresses:"
+msgstr "Anonymizovat IP adresy:"
+
+#: includes/admin/templates/settings/notifications.php:185
+msgid "All Notices:"
+msgstr "Všechny poznámky:"
+
+#: includes/admin/templates/settings/notifications.php:180
+msgid "Admin Notices"
+msgstr "Admin poznámky"
+
+#: includes/admin/templates/settings/notifications.php:144
+msgid "Message body:"
+msgstr "Obsah zprávy:"
+
+#: includes/admin/templates/settings/notifications.php:71
+msgid "Statistical Reports:"
+msgstr "Statistický reporting:"
+
+#: includes/admin/templates/settings/notifications.php:38
+msgid "GeoIP:"
+msgstr "GeoIP:"
+
+#: includes/admin/templates/settings/maintenance.php:71
+msgid "The number of hits required to delete the visitor."
+msgstr "Počet zhlédnutí požadovaných ke smazání návštěvníka."
+
+#: includes/admin/templates/settings/maintenance.php:37
+#: includes/admin/templates/settings/maintenance.php:71
+msgid "Invalid values will disable the daily maintenance."
+msgstr "Neplatné hodnoty budou vypnuty denní údržbou."
+
+#: includes/admin/templates/settings/maintenance.php:37
+msgid "The number of days to keep statistics for."
+msgstr "Počet dní k zachování statistk."
+
+#: includes/admin/templates/settings/general.php:124
+msgid "Pages:"
+msgstr "Stránky:"
+
+#: includes/admin/templates/settings/general.php:16
+msgid "Online User:"
+msgstr "Online Uživatel:"
+
+#: includes/admin/templates/settings/externals.php:126
+msgid "Use \"000\" (three zeros) to use \"Unknown\" as the country code."
+msgstr "Použí \"000\" (tři nuly) k označení kódu země jako \"Neznámý\"."
+
+#: includes/admin/templates/settings/exclusions.php:147
+#: includes/admin/templates/settings/exclusions.php:155
+msgid "Use \"000\" (three zeros) to exclude unknown countries."
+msgstr "Použijte \"000\" (tři nuly) k vyjmutí neznámých zemí.."
+
+#: includes/admin/templates/settings/exclusions.php:155
+msgid "Add the country codes (one per line, two letters each) to include them in statistics collection."
+msgstr "Seznam kódů zemí (jeden na řádku, dva znaky prokaždou) pro vyjmuti ze statistik."
+
+#: includes/admin/templates/settings/exclusions.php:108
+msgid "Use Honey Pot:"
+msgstr "Použít Honey Pot:"
+
+#: includes/admin/templates/settings/exclusions.php:12
+msgid "This option will record all the excluded hits in a separate table with the reasons for excluding (but no other information)."
+msgstr "Tato možnost zaznamená všechna vyloučená zhlédnutí do samostatné tabulky s důvody vyloučení (ale žádné další informace)."
+
+#: includes/admin/templates/optimization/purging.php:326
+msgid "All visitor data will be lost for this IP."
+msgstr "Všechna data návštěvníka budou ztracena pro tuto IP."
+
+#: includes/admin/templates/optimization/purging.php:320
+msgid "Delete IP:"
+msgstr "Smazat IP:"
+
+#: includes/admin/templates/optimization/purging.php:252
+#: includes/admin/templates/settings/maintenance.php:71
+msgid "Minimum value is 10 hits."
+msgstr "Minimální hodnota je 10 zhlédnutí."
+
+#: includes/admin/templates/optimization/purging.php:252
+msgid "This will remove the visitor and their hits to the site, however it will not remove individual page hits as that data is not recorded on a per use basis."
+msgstr "Tím se odstraní návštěvník a jeho zhlédnutí webu, ale neodstraní se jednotlivé přístupy na stránky, protože tato data nejsou zaznamenávána na základě použití."
+
+#: includes/admin/templates/optimization/purging.php:252
+msgid "Delete user statistics data where the user has more than the defined number of hits in a day."
+msgstr "Smazat data statistik uživatelů, pokud má uživatel více než definovaný počet zhlédnutí za den."
+
+#: includes/admin/templates/optimization/purging.php:236
+msgid "Minimum value is 30 days."
+msgstr "Minimální hodnota je 30 dní."
+
+#: includes/admin/templates/optimization/purging.php:236
+msgid "Delete user statistics data older than the selected number of days."
+msgstr "Smazal statistická data uživatele starší než požadovaný počet dní."
+
+#: includes/admin/templates/optimization/updates.php:14
+msgid "Countries:"
+msgstr "Země:"
+
+#: includes/admin/class-wp-statistics-admin-ajax.php:182
+msgid "No IP address data found to remove!"
+msgstr "Data pro IP adresu nenalezena k odstranění!"
+
+#: includes/admin/class-wp-statistics-admin-ajax.php:180
+msgid "%s IP data deleted successfully."
+msgstr "%s IP data smazány úspěšně."
+
+#: includes/admin/templates/layout/tabs-settings.php:5
+msgid "Privacy"
+msgstr "Soukromí"
+
+#: includes/admin/templates/settings/privacy.php:5
+msgid "Privacy and Data Protection"
+msgstr "Soukromí a ochrana dat"
+
+#: includes/class-wp-statistics-geoip.php:265
+msgid "Error the gzopen() function do not exist!"
+msgstr "Chyba gzopen() funkce neexistuje!"
+
+#: includes/admin/templates/settings/general.php:226
+msgid "Choose the position to show Hits."
+msgstr "Vyberte pozici pro zobrazení zhlédnutí."
+
+#: includes/admin/class-wp-statistics-admin-notices.php:92
+msgid "GeoIP collection is not enabled. Please go to <a href=\"%s\">setting page</a> to enable GeoIP for getting more information and location (country) from the visitor."
+msgstr "GeoIP není zapnuto. Prosím jděte na <a href=\"%s\">stránku nastavení</a> pro zapnutí GeoIP a získávání více informací o lokaci (zemi) od návštěvníka."
+
+#: includes/class-wp-statistics-frontend.php:118
+msgid "Hits: %s"
+msgstr "Zhlédnutí: %s"
+
+#: includes/admin/templates/settings/general.php:224
+msgid "After Content"
+msgstr "Po obsahu"
+
+#: includes/admin/templates/settings/general.php:223
+msgid "Before Content"
+msgstr "Před obsahem"
+
+#: includes/admin/templates/settings/general.php:217
+msgid "Display position:"
+msgstr "Pozice zobrazení:"
+
+#: includes/admin/templates/settings/general.php:119
+msgid "Pages and Posts"
+msgstr "Stránky a příspěvky"
+
+#: includes/admin/templates/layout/select.php:6
+msgid "Select Page"
+msgstr "Vybrat stránku"
+
+#. Author URI of the plugin
+msgid "https://veronalabs.com/"
+msgstr "https://veronalabs.com/"
+
+#. Author of the plugin
+msgid "VeronaLabs"
+msgstr "Verona Labs"
+
+#: includes/admin/templates/postbox.php:4
+msgid "Subscribe to Newsletter"
+msgstr "Odebírat novinky"
+
+#: includes/admin/templates/postbox.php:12
+msgid "Subscribe"
+msgstr "Odebírat"
+
+#: includes/admin/templates/postbox.php:8
+msgid "Subscribe to our mailing list for get any news of the WP Statistics"
+msgstr "Přihlásit se do mailového seznam pro odebírání novinek o WP Statistiky"
+
+#: includes/admin/meta-box/wp-statistics-meta-box-platforms.php:81
+#: includes/admin/meta-box/wp-statistics-meta-box-platforms.php:83
+#: includes/class-wp-statistics-menus.php:249
+msgid "Platforms"
+msgstr "Platformy"
+
+#: includes/class-wp-statistics-geoip.php:314
+msgid "Error setting permissions of the GeoIP database directory, make sure your web server has permissions to write to directories in : %s"
+msgstr "Chyba v nastavení práv pro adresář GeoIP, ujistěte se že Vás web server má práva pro zápis pro adresáře v: %s"
+
+#: includes/admin/templates/meta-box/about.php:26
+#: includes/admin/templates/plugins.php:4
+#: includes/class-wp-statistics-menus.php:284
+#: includes/class-wp-statistics-menus.php:285
+msgid "Add-Ons"
+msgstr "Add-Ony"
+
+#: includes/class-wp-statistics-menus.php:235
+msgid "Authors"
+msgstr "Autoři"
+
+#: includes/class-wp-statistics-helper.php:778
+msgid "Tags"
+msgstr "Tagy"
+
+#: includes/class-wp-statistics-widget.php:90
+#: includes/class-wp-statistics-widget.php:292
+msgid "Last 365 Days Visits"
+msgstr "Návštěvy posledních 365 dní"
+
+#: includes/class-wp-statistics-widget.php:83
+#: includes/class-wp-statistics-widget.php:288
+msgid "Last 30 Days Visits"
+msgstr "Návštěvy posledních 30 dní"
+
+#: includes/class-wp-statistics-widget.php:76
+#: includes/class-wp-statistics-widget.php:284
+msgid "Last 7 Days Visits"
+msgstr "Návštěvy posledních 7 dní"
+
+#: includes/admin/templates/add-ons.php:54
+msgid "Buy Add-On"
+msgstr "Koupit Add-On"
+
+#: src/Service/Admin/AddOnDecorator.php:137
+msgid "Inactive"
+msgstr "Neaktivní"
+
+#: includes/admin/templates/add-ons.php:32
+#: includes/admin/templates/settings/general.php:61
+#: includes/admin/templates/settings/general.php:82
+#: includes/admin/templates/settings/general.php:241
+msgid "Status:"
+msgstr "Status:"
+
+#: includes/admin/templates/add-ons.php:31
+msgid "Version:"
+msgstr "Verze:"
+
+#: includes/admin/templates/layout/tabs-settings.php:12
+#: includes/admin/templates/settings/reset.php:15
+msgid "Reset"
+msgstr "Reset"
+
+#: includes/admin/templates/settings/reset.php:10
+msgid "Reset Options:"
+msgstr "Reset vlastnosti:"
+
+#: includes/admin/templates/settings/notifications.php:158
+#: includes/class-wp-statistics-admin-bar.php:93
+#: includes/class-wp-statistics-widget.php:48
+#: includes/class-wp-statistics-widget.php:268
+msgid "Today's Visits"
+msgstr "Dnešní návštěvy"
+
+#: includes/admin/templates/settings/notifications.php:156
+#: includes/class-wp-statistics-admin-bar.php:89
+#: includes/class-wp-statistics-widget.php:55
+#: includes/class-wp-statistics-widget.php:272
+msgid "Today's Visitors"
+msgstr "Dnešní návštěvníci"
+
+#: includes/admin/templates/settings/notifications.php:154
+msgid "Online User"
+msgstr "Online uživatel"
+
+#: includes/admin/templates/settings/externals.php:83
+msgid "First Tuesday of next month"
+msgstr "První úterý následujícího měsíce"
+
+#: includes/admin/templates/settings/externals.php:80
+#: includes/class-wp-statistics-schedule.php:176
+msgid "First Tuesday of this month"
+msgstr "První úterý tohoto měsíce"
+
+#: includes/admin/templates/settings/exclusions.php:96
+msgid "For IPv6 addresses, use the fc00::/7 format."
+msgstr "Pro IPv6 adresy použijte fc00::/7 formát."
+
+#: includes/admin/templates/settings/exclusions.php:95
+msgid "For IPv4 addresses, both 192.168.0.0/24 and 192.168.0.0/255.255.255.0 formats are acceptable. To specify an IP address, use a subnet value of 32 or 255.255.255.255."
+msgstr "Pro  IPv4 adresy, oba formáty jsou akceptovány 192.168.0.0/24 a 192.168.0.0/255.255.255.0. Udejte jen IP adresu, použíte subnet hodnotu 32 nebo  255.255.255.255."
+
+#: includes/admin/templates/settings/exclusions.php:94
+msgid "You can add a list of IP addresses and subnet masks (one per line) to exclude from the statistics collection."
+msgstr "Seznam IP adres a podsítí (jedna na řádku) pro vyjmutí ze statistik."
+
+#: includes/admin/templates/settings/about.php:144
+msgid "Are you getting a blank or incomplete page displayed in your browser?"
+msgstr "Objevila se Vám nekompletní nebo prázdná stránka ve Vašem prohlížeči?"
+
+#: includes/admin/templates/settings/about.php:122
+msgid "Have you search the %ssupport forum%s for a similar issue?"
+msgstr "Prohledal jste the %sfórum pro podporu%s pro podobný problém?"
+
+#: includes/admin/templates/meta-box/about.php:21
+#: includes/admin/templates/settings/about.php:117
+msgid "Documentation"
+msgstr "Dokumentace"
+
+#: includes/admin/templates/settings/about.php:115
+msgid "Have you read the %sdocumentation%s?"
+msgstr "Četl jste %sdokumentaci%s?"
+
+#: includes/admin/templates/settings/about.php:108
+msgid "Have you read the %sFAQs%s?"
+msgstr "Četl jste %sNejčastější dotazy%s?"
+
+#: includes/admin/templates/settings/about.php:86
+msgid "WP Statistics supports internationalization. Please visit %sWP Statistics translations page%s to help translation."
+msgstr "WP Statistiky podporují mezinárodní lokalizaci. Prosíme navštivte %sWP Statistiky překladatelskou stránku%s pro pomoc s překladem."
+
+#: includes/admin/templates/settings/about.php:70
+msgid "Thanks for installing WP Statistics, we encourage you to submit a %srating and review%s over at WordPress.org. Your feedback is greatly appreciated!"
+msgstr "Děkujeme za instalaci WP Statistiky, oceníme pokud zašlete své %shodnocená a recenzi%s na WordPress.org. Vaše zpětná vazba je vítaná!"
+
+#: includes/admin/templates/optimization/resources.php:174
+msgid "BCMath PHP extension"
+msgstr "BCMath PHP rozšíření"
+
+#: includes/admin/templates/optimization/resources.php:158
+msgid "GMP PHP extension"
+msgstr "GMP PHP rozšíření"
+
+#: includes/admin/templates/optimization/resources.php:152
+msgid "If the gzopen() function is installed. The gzopen() function is required for the GeoIP database to be downloaded successfully."
+msgstr "Pokud gzopen() funkce je instalováni.  gzopen() je vyžadováno pro úspěšné stažení  GeoIP databáze."
+
+#: includes/admin/templates/optimization/resources.php:142
+msgid "Zlib gzopen()"
+msgstr "Zlib gzopen()"
+
+#: includes/admin/templates/optimization/resources.php:95
+msgid "PHP IPv6 Enabled"
+msgstr "PHP IPv6 zapnuté"
+
+#: includes/admin/templates/layout/date.range.php:67
+msgid "Last 30 Days"
+msgstr "Posledních 30 dní:"
+
+#: includes/admin/class-wp-statistics-admin-assets.php:266
+#: includes/admin/class-wp-statistics-admin-assets.php:298
+msgid "Last 7 days"
+msgstr "Posledních 7 dní:"
+
+#: includes/admin/templates/pages/page-chart.php:99
+#: includes/class-wp-statistics-meta-box.php:206
+msgid "Top Visitors"
+msgstr "Top návštěvy"
+
+#: includes/admin/pages/class-wp-statistics-admin-page-refer.php:81
+msgid "Referring site: %s"
+msgstr "Odkazující stránka: %s"
+
+#: includes/admin/templates/pages/tag.php:43
+msgid "Number of posts in tag:"
+msgstr "Počet příspěvků pro štítek:"
+
+#: includes/admin/templates/pages/tag.php:26
+#: includes/admin/templates/pages/tag.php:29
+msgid "Tag Statistics Summary"
+msgstr "Celková statistika štítku"
+
+#: includes/admin/templates/pages/tag.php:7
+#: includes/admin/templates/pages/tag.php:10
+msgid "Tag Statistics Chart"
+msgstr "Statistický graf štítku"
+
+#: includes/admin/pages/class-wp-statistics-admin-page-tags.php:52
+msgid "Select Tag"
+msgstr "Vybrat štítek"
+
+#: includes/admin/pages/class-wp-statistics-admin-page-tags.php:40
+msgid "Tag Statistics"
+msgstr "Štítek statistiky"
+
+#: includes/admin/meta-box/wp-statistics-meta-box-search.php:44
+msgid "Search engine referrals in the last %s days"
+msgstr "Odazující vyhledávače za posledních %s dní"
+
+#: includes/admin/class-wp-statistics-admin-template.php:188
+msgid "Page %1$s of %2$s"
+msgstr "Stránka %1$s z %2$s"
+
+#: includes/admin/templates/pages/category.php:43
+msgid "The Number of Posts in Category:"
+msgstr "Počet příspěvků v kategorii:"
+
+#: includes/admin/templates/pages/category.php:25
+#: includes/admin/templates/pages/category.php:27
+msgid "Category Statistics Summary"
+msgstr "Statistický souhrn kategorie"
+
+#: includes/admin/templates/pages/category.php:6
+#: includes/admin/templates/pages/category.php:8
+msgid "Category Statistics Chart"
+msgstr "Statistický graf kategorie"
+
+#: includes/admin/pages/class-wp-statistics-admin-page-category.php:51
+msgid "Select Category"
+msgstr "Vybrat kategorii"
+
+#: includes/admin/pages/class-wp-statistics-admin-page-category.php:39
+msgid "Category Statistics"
+msgstr "Statistika kategorie"
+
+#: includes/admin/templates/pages/author.php:43
+msgid "Number of posts by author:"
+msgstr "Počet příspěvků podle autora :"
+
+#: includes/admin/class-wp-statistics-admin-assets.php:314
+#: includes/admin/templates/pages/author.php:36
+#: includes/admin/templates/pages/author.php:85
+#: includes/admin/templates/pages/category.php:36
+#: includes/admin/templates/pages/category.php:85
+#: includes/admin/templates/pages/tag.php:36
+#: includes/admin/templates/pages/tag.php:85
+#: includes/admin/templates/pages/taxonomies.php:36
+#: includes/admin/templates/pages/taxonomies.php:85
+msgid "Count"
+msgstr "Počet"
+
+#: includes/admin/templates/pages/author.php:25
+#: includes/admin/templates/pages/author.php:27
+msgid "Author Statistics Summary"
+msgstr "Statistický souhrn autora"
+
+#: includes/admin/templates/pages/author.php:6
+#: includes/admin/templates/pages/author.php:8
+msgid "Author Statistics Chart"
+msgstr "Statistický graf autora"
+
+#: includes/admin/templates/layout/date.range.php:15
+msgid "Select"
+msgstr "Vybrat"
+
+#: includes/admin/pages/class-wp-statistics-admin-page-authors.php:39
+msgid "Author Statistics"
+msgstr "Statistiky autora"
+
+#: includes/admin/templates/pages/author.php:8
+#: includes/admin/templates/pages/author.php:27
+#: includes/admin/templates/pages/author.php:76
+#: includes/admin/templates/pages/category.php:8
+#: includes/admin/templates/pages/category.php:27
+#: includes/admin/templates/pages/category.php:76
+#: includes/admin/templates/pages/pages.php:8
+#: includes/admin/templates/pages/pages.php:27
+#: includes/admin/templates/pages/refer.url.php:21
+#: includes/admin/templates/pages/tag.php:7
+#: includes/admin/templates/pages/tag.php:26
+#: includes/admin/templates/pages/tag.php:75
+#: includes/admin/templates/pages/taxonomies.php:8
+#: includes/admin/templates/pages/taxonomies.php:27
+#: includes/admin/templates/pages/taxonomies.php:76
+msgid "Toggle panel: %s"
+msgstr "Přepínací panel: %s"
+
+#: includes/defines/country-codes.php:6
+msgctxt "Country"
+msgid "Unknown"
+msgstr "Neznámá"
+
+#: includes/class-wp-statistics-search-engine.php:151
+msgctxt "Search Engine"
+msgid "Unknown"
+msgstr "Neznámý"
+
+#: includes/class-wp-statistics-user-agent.php:35
+#: includes/class-wp-statistics-user-agent.php:158
+msgctxt "Version"
+msgid "Unknown"
+msgstr "Neznámá"
+
+#: includes/admin/meta-box/wp-statistics-meta-box-platforms.php:52
+#: includes/class-wp-statistics-user-agent.php:40
+#: includes/class-wp-statistics-user-agent.php:123
+msgctxt "Platform"
+msgid "Unknown"
+msgstr "Neznámá"
+
+#: includes/class-wp-statistics-user-agent.php:39
+#: includes/class-wp-statistics-user-agent.php:153
+msgctxt "Browser"
+msgid "Unknown"
+msgstr "Neznámý"
+
+#: includes/admin/class-wp-statistics-admin-assets.php:258
+msgid "More Details"
+msgstr "Více detailů"
+
+#: includes/admin/class-wp-statistics-admin-assets.php:259
+msgid "Reload"
+msgstr "Obnovit"
+
+#. Plugin URI of the plugin
+msgid "https://wp-statistics.com/"
+msgstr "https://wp-statistics.com/"
+
+#: includes/class-wp-statistics-geoip.php:388
+#: includes/class-wp-statistics-geoip.php:391
+msgid "GeoIP update on"
+msgstr "GeoIP aktualizované na"
+
+#: includes/class-wp-statistics-geoip.php:365
+msgid "GeoIP Database updated successfully!"
+msgstr "GeoIP Databáze byla úspěšně aktualizována!"
+
+#: includes/class-wp-statistics-geoip.php:350
+msgid "Error could not open destination GeoIP database for writing %s"
+msgstr "Chyba nelze otevřít cílovou databázi GeoIP pro psaní %s"
+
+#: includes/class-wp-statistics-geoip.php:341
+msgid "Error could not open downloaded GeoIP database for reading: %s"
+msgstr "Chyba nelze otevřít stažené GeoIP databázi pro čtení: %s"
+
+#: includes/class-wp-statistics-geoip.php:326
+msgid "Error downloading GeoIP database from: %s - %s"
+msgstr "Chyba při stahování GeoIP databáze od: %s - %s"
+
+#: includes/class-wp-statistics-geoip.php:305
+msgid "Error creating GeoIP database directory, make sure your web server has permissions to create directories in: %s"
+msgstr "Chyba při  vytváření adresáře GeoIP databáze, zkontrolujte, že váš webový server má oprávnění na vytvoření adresářů v : %s"
+
+#: includes/admin/pages/class-wp-statistics-admin-page-optimization.php:36
+#: includes/admin/pages/class-wp-statistics-admin-page-settings.php:16
+msgid "You do not have sufficient permissions to access this page."
+msgstr "Nemáte dostatečná práva pro přístup na tuto stránku."
+
+#: includes/admin/class-wp-statistics-admin-network.php:51
+msgid "Options"
+msgstr "Vlastnosti"
+
+#: includes/admin/class-wp-statistics-admin-network.php:50
+msgid "Site"
+msgstr "Stránka"
+
+#: includes/admin/class-wp-statistics-admin-network.php:71
+#: includes/class-wp-statistics-menus.php:270
+msgid "Optimization"
+msgstr "Optimalizace"
+
+#: includes/admin/class-wp-statistics-admin-network.php:69
+#: includes/admin/pages/class-wp-statistics-admin-page-top-visitors-today.php:33
+#: includes/class-wp-statistics-menus.php:256
+msgid "Top Visitors Today"
+msgstr "Top dnešních návštěvníků"
+
+#: includes/admin/class-wp-statistics-admin-network.php:63
+#: includes/class-wp-statistics-menus.php:200
+msgid "Search Words"
+msgstr "Hledaná slova"
+
+#: includes/admin/class-wp-statistics-admin-network.php:62
+#: includes/class-wp-statistics-menus.php:193
+msgid "Referrers"
+msgstr "Odkazující"
+
+#: includes/admin/class-wp-statistics-admin-network.php:61
+#: includes/class-wp-statistics-menus.php:179
+msgid "Online"
+msgstr "Online"
+
+#: includes/admin/class-wp-statistics-admin-network.php:29
+#: includes/admin/class-wp-statistics-admin-network.php:59
+#: includes/class-wp-statistics-menus.php:166
+msgid "Overview"
+msgstr "Přehled"
+
+#: includes/class-wp-statistics-install.php:323
+msgid "Rate this plugin"
+msgstr "Ohodnoť tento plugin"
+
+#: includes/class-wp-statistics-install.php:323
+msgid "Click here to rate and review this plugin on WordPress.org"
+msgstr "Klikněte zde pro hodnocení a recenzování tento plugin na WordPress.org"
+
+#: includes/class-wp-statistics-install.php:321
+msgid "Visit WordPress.org page"
+msgstr "Navštivte stránku WordPress.org"
+
+#: includes/class-wp-statistics-install.php:321
+msgid "Click here to visit the plugin on WordPress.org"
+msgstr "Chcete-li navštívit plugin WordPress.org"
+
+#: includes/admin/class-wp-statistics-admin-network.php:72
+#: includes/class-wp-statistics-install.php:304
+#: includes/class-wp-statistics-menus.php:277
+msgid "Settings"
+msgstr "Nastavení"
+
+#: includes/admin/class-wp-statistics-admin-notices.php:126
+msgid ","
+msgstr ","
+
+#: includes/admin/class-wp-statistics-admin-notices.php:126
+msgid "The following features are disabled, please go to %ssettings page%s and enable them: %s"
+msgstr "Následující funkce jsou vypnuté, prosím jděte na  %snastavení stránky%s a zapněte je: %s"
+
+#: includes/admin/class-wp-statistics-admin-notices.php:122
+msgid "visitor tracking"
+msgstr "sledování návštěvníka"
+
+#: includes/admin/class-wp-statistics-admin-notices.php:117
+msgid "hit tracking"
+msgstr "sledování zobrazené"
+
+#: includes/admin/class-wp-statistics-admin-notices.php:112
+msgid "online user tracking"
+msgstr "online sledování uživatele"
+
+#. Plugin Name of the plugin
+#: includes/admin/class-wp-statistics-admin-privacy.php:25
+#: includes/admin/templates/emails/copyright.php:5
+#: includes/class-wp-statistics-meta-box.php:257
+msgid "WP Statistics"
+msgstr "WP Statistiky"
+
+#: includes/class-wp-statistics-widget.php:313
+msgid "Select type of search engine"
+msgstr "Vyberte typ vyhledávače"
+
+#: includes/class-wp-statistics-widget.php:260
+msgid "Items"
+msgstr "Položky"
+
+#: includes/class-wp-statistics-widget.php:255
+msgid "Name"
+msgstr "Jméno"
+
+#: includes/class-wp-statistics-widget.php:153
+#: includes/class-wp-statistics-widget.php:347
+msgid "Total Users"
+msgstr "Celkem uživatelů"
+
+#: includes/class-wp-statistics-widget.php:146
+#: includes/class-wp-statistics-widget.php:343
+msgid "Total Spams"
+msgstr "Celkem Spamů"
+
+#: includes/class-wp-statistics-widget.php:139
+#: includes/class-wp-statistics-widget.php:339
+msgid "Total Comments"
+msgstr "Celkem komentářů"
+
+#: includes/class-wp-statistics-widget.php:132
+#: includes/class-wp-statistics-widget.php:335
+msgid "Total Pages"
+msgstr "Celkem stránek"
+
+#: includes/class-wp-statistics-widget.php:125
+#: includes/class-wp-statistics-widget.php:331
+msgid "Total Posts"
+msgstr "Celkem příspěvků"
+
+#: includes/class-wp-statistics-widget.php:111
+#: includes/class-wp-statistics-widget.php:304
+msgid "Total Page Views"
+msgstr "Celkový počet zobrazení stránky"
+
+#: includes/class-wp-statistics-widget.php:16
+msgid "Show site stats in sidebar."
+msgstr "Zobrazit statistiky stránek v postranním panelu."
+
+#: includes/admin/class-wp-statistics-admin-network.php:26
+#: includes/class-wp-statistics-menus.php:159
+#: includes/class-wp-statistics-widget.php:15
+msgid "Statistics"
+msgstr "Statistiky"
+
+#: includes/admin/TinyMCE/class-wp-statistics-tinymce.php:66
+#: includes/class-wp-statistics-shortcode.php:221
+msgid "The post/page ID to get page statistics on."
+msgstr "ID příspěvku.stránky pro zísání statistiky."
+
+#: includes/class-wp-statistics-shortcode.php:218
+msgid "Post/Page ID"
+msgstr "Příspěvek/Stránka ID"
+
+#: includes/class-wp-statistics-shortcode.php:214
+msgid "International"
+msgstr "Mezinárodní"
+
+#: includes/class-wp-statistics-shortcode.php:213
+msgid "English"
+msgstr "Anglicky"
+
+#: includes/admin/TinyMCE/class-wp-statistics-tinymce.php:64
+#: includes/class-wp-statistics-shortcode.php:206
+msgid "The format to display numbers in: i18n, english, none."
+msgstr "Formát zobrazení čísla: i18n, angličtina, nic."
+
+#: includes/class-wp-statistics-shortcode.php:203
+msgid "Number Format"
+msgstr "Formát čísla"
+
+#: includes/admin/TinyMCE/class-wp-statistics-tinymce.php:62
+#: includes/class-wp-statistics-shortcode.php:199
+msgid "The search provider to get statistics on."
+msgstr "Poskytovatel vyhledávání pro získání statistických údajů."
+
+#: includes/class-wp-statistics-shortcode.php:196
+msgid "Search Provider"
+msgstr "Poskytoval vyhledávání"
+
+#: includes/class-wp-statistics-shortcode.php:186
+msgid "Time Frame"
+msgstr "Období"
+
+#: includes/admin/TinyMCE/class-wp-statistics-tinymce.php:49
+#: includes/class-wp-statistics-shortcode.php:181
+#: includes/class-wp-statistics-widget.php:181
+#: includes/class-wp-statistics-widget.php:363
+msgid "Last Post Date"
+msgstr "Datum posledního příspěvku"
+
+#: includes/admin/TinyMCE/class-wp-statistics-tinymce.php:48
+#: includes/class-wp-statistics-shortcode.php:180
+#: includes/class-wp-statistics-widget.php:174
+#: includes/class-wp-statistics-widget.php:359
+msgid "User Average"
+msgstr "Průměr Uživatel"
+
+#: includes/admin/TinyMCE/class-wp-statistics-tinymce.php:47
+#: includes/class-wp-statistics-shortcode.php:179
+#: includes/class-wp-statistics-widget.php:167
+#: includes/class-wp-statistics-widget.php:355
+msgid "Comment Average"
+msgstr "Průměr komentář"
+
+#: includes/admin/TinyMCE/class-wp-statistics-tinymce.php:46
+#: includes/class-wp-statistics-shortcode.php:178
+#: includes/class-wp-statistics-widget.php:160
+#: includes/class-wp-statistics-widget.php:351
+msgid "Post Average"
+msgstr "Průměr příspěvek"
+
+#: includes/admin/TinyMCE/class-wp-statistics-tinymce.php:45
+#: includes/class-wp-statistics-shortcode.php:177
+msgid "User Count"
+msgstr "Počet uživatelů"
+
+#: includes/admin/TinyMCE/class-wp-statistics-tinymce.php:44
+#: includes/class-wp-statistics-shortcode.php:176
+msgid "Spam Count"
+msgstr "Počet Spamů"
+
+#: includes/admin/TinyMCE/class-wp-statistics-tinymce.php:43
+#: includes/class-wp-statistics-shortcode.php:175
+msgid "Comment Count"
+msgstr "Počet komentářů"
+
+#: includes/admin/TinyMCE/class-wp-statistics-tinymce.php:42
+#: includes/class-wp-statistics-shortcode.php:174
+msgid "Page Count"
+msgstr "Počet stránek"
+
+#: includes/admin/TinyMCE/class-wp-statistics-tinymce.php:41
+#: includes/class-wp-statistics-shortcode.php:173
+msgid "Post Count"
+msgstr "Počet příspěvků"
+
+#: includes/admin/class-wp-statistics-admin-network.php:64
+#: includes/admin/TinyMCE/class-wp-statistics-tinymce.php:40
+#: includes/class-wp-statistics-shortcode.php:172
+msgid "Searches"
+msgstr "Vyhledávání"
+
+#: includes/admin/TinyMCE/class-wp-statistics-tinymce.php:39
+#: includes/class-wp-statistics-shortcode.php:171
+msgid "Page Visits"
+msgstr "Návštěvy stránek"
+
+#: includes/class-wp-statistics-shortcode.php:165
+msgid "Select the statistic you wish to display."
+msgstr "Vyberte statistiku, kterou si přejete zobrazit."
+
+#: includes/class-wp-statistics-shortcode.php:162
+msgid "Statistic"
+msgstr "Statistika"
+
+#: includes/class-wp-statistics-schedule.php:135
+msgid "Once Every 4 Weeks"
+msgstr "Jednou za 4 týdny"
+
+#: includes/class-wp-statistics-schedule.php:131
+msgid "Once Every 2 Weeks"
+msgstr "Jednou za 2 týdny"
+
+#: includes/class-wp-statistics-schedule.php:127
+msgid "Once Weekly"
+msgstr "Jednou týdně"
+
+#: includes/admin/templates/layout/tabs-settings.php:11
+msgid "Maintenance"
+msgstr "Údržba"
+
+#: includes/admin/templates/layout/tabs-settings.php:10
+msgid "Externals"
+msgstr "Externí"
+
+#: includes/admin/templates/layout/tabs-settings.php:6
+msgid "Notifications"
+msgstr "Oznámení"
+
+#: includes/admin/templates/layout/tabs-settings.php:3
+msgid "General"
+msgstr "Obecné"
+
+#: includes/admin/templates/settings/overview-display.php:10
+msgid "The following items are global to all users."
+msgstr "Nasledující položky jsou globální pro všechny uživatele."
+
+#: includes/admin/templates/layout/tabs-settings.php:7
+#: includes/admin/templates/settings/overview-display.php:15
+msgid "Dashboard"
+msgstr "Nástěnka"
+
+#: includes/admin/templates/layout/tabs-settings.php:13
+msgid "About"
+msgstr "O nás"
+
+#: includes/class-wp-statistics-shortcode.php:212
+msgid "None"
+msgstr "Žádný"
+
+#: includes/admin/templates/settings/notifications.php:166
+#: includes/class-wp-statistics-widget.php:97
+#: includes/class-wp-statistics-widget.php:296
+msgid "Total Visits"
+msgstr "Celkem návštěv"
+
+#: includes/admin/templates/settings/notifications.php:164
+#: includes/class-wp-statistics-widget.php:104
+#: includes/class-wp-statistics-widget.php:300
+msgid "Total Visitors"
+msgstr "Celkem návštěvníků"
+
+#: includes/admin/templates/settings/notifications.php:162
+#: includes/class-wp-statistics-admin-bar.php:101
+#: includes/class-wp-statistics-widget.php:62
+#: includes/class-wp-statistics-widget.php:276
+msgid "Yesterday's Visits"
+msgstr "Včerejší návštěvy"
+
+#: includes/admin/templates/settings/notifications.php:160
+#: includes/class-wp-statistics-admin-bar.php:97
+#: includes/class-wp-statistics-widget.php:69
+#: includes/class-wp-statistics-widget.php:280
+msgid "Yesterday's Visitors"
+msgstr "Včerejší návštěvníci"
+
+#: includes/admin/templates/settings/notifications.php:149
+msgid "Enter the contents of the report."
+msgstr "Zadejte obsah reportu."
+
+#: includes/admin/templates/settings/notifications.php:137
+msgid "Note: To send SMS text messages please install the %s plugin."
+msgstr "Poznámka: Poslat SMS textové zprávy prosím nainstalovat zásuvný modul %s."
+
+#: includes/admin/templates/settings/notifications.php:135
+msgid "Select delivery method for statistical report."
+msgstr "Vyberte metodu doručení statistického reportu."
+
+#: includes/admin/templates/settings/notifications.php:131
+msgid "SMS"
+msgstr "SMS"
+
+#: includes/admin/templates/pages/online.php:46
+#: includes/admin/templates/settings/notifications.php:129
+msgid "Email"
+msgstr "E-mail"
+
+#: includes/admin/templates/settings/notifications.php:123
+msgid "Send reports via:"
+msgstr "Zaslat reporty:"
+
+#: includes/admin/templates/settings/notifications.php:116
+msgid "Select how often to receive statistical report."
+msgstr "Vyberte jak často dostávat statistický report."
+
+#: includes/admin/templates/settings/notifications.php:88
+msgid "Schedule:"
+msgstr "Plán:"
+
+#: includes/admin/templates/settings/notifications.php:66
+#: includes/class-wp-statistics-schedule.php:248
+msgid "Statistical reporting"
+msgstr "Statistický reporting"
+
+#: includes/admin/templates/settings/notifications.php:50
+msgid "Pruning:"
+msgstr "Odstranění:"
+
+#: includes/admin/templates/settings/notifications.php:33
+msgid "Update Reports"
+msgstr "Aktualizovat reporty"
+
+#: includes/admin/templates/settings/notifications.php:15
+msgid "Email Addresses:"
+msgstr "E-mail adresy:"
+
+#: includes/admin/templates/settings/notifications.php:10
+msgid "Common Report Options"
+msgstr "Všeobecné nastavení reportů"
+
+#: includes/admin/templates/settings/maintenance.php:59
+msgid "A WP Cron job will be run daily to purge any users statistics data where the user has more than the defined number of hits in a day (aka they are probably a bot)."
+msgstr "Úloha WP Cron bude spouštěna denně, aby se vyčistila všechna uživatelská statistická data, pokud má uživatel více než definovaný počet zhlédnutí za den (také znám jako pravděpodobně robot)."
+
+#: includes/admin/templates/optimization/purging.php:234
+#: includes/admin/templates/settings/maintenance.php:36
+msgid "Days"
+msgstr "Dny"
+
+#: includes/admin/templates/settings/maintenance.php:31
+msgid "Purge Data Older Than:"
+msgstr "Odstranit data starší než:"
+
+#: includes/admin/templates/settings/maintenance.php:19
+#: includes/admin/templates/settings/maintenance.php:53
+msgid "Enabled:"
+msgstr "Zapnuté:"
+
+#: includes/admin/templates/settings/maintenance.php:14
+msgid "Purge Old Data Daily"
+msgstr "Odstranit stará data denně"
+
+#: includes/admin/templates/settings/maintenance.php:5
+msgid "This will permanently delete data from the database each day, are you sure you want to enable this option?"
+msgstr "To bude trvale odstranit data z databáze každý den, jste si jisti, že chcete povolit tuto možnost?"
+
+#: includes/admin/templates/settings/general.php:357
+msgid "Add a total line to charts with multiple values, like the search engine referrals"
+msgstr "Přidání řádku Celkem se grafy s více hodnotami, jako je hledání vyhledávač doporučováním"
+
+#: includes/admin/templates/settings/general.php:352
+msgid "Include Totals:"
+msgstr "Zahrnout součty:"
+
+#: includes/admin/templates/settings/general.php:347
+msgid "Charts"
+msgstr "Grafy"
+
+#: includes/admin/templates/settings/general.php:336
+msgid "Disable %s from data collection and reporting."
+msgstr "Zakážete %s ze shromažďování údajů a výkaznictví."
+
+#: includes/admin/templates/settings/general.php:170
+#: includes/admin/templates/settings/general.php:181
+#: includes/admin/templates/settings/general.php:335
+#: includes/admin/templates/settings/overview-display.php:25
+#: includes/admin/templates/settings/overview-display.php:42
+msgid "Disable"
+msgstr "Vypnout"
+
+#: includes/admin/templates/settings/general.php:318
+msgid "Disabling all search engines is not allowed. Doing so will result in all search engines being active."
+msgstr "Zakázání všech vyhledávačů není dovoleno, to povede ve všech vyhledávačích je aktivní."
+
+#: includes/admin/templates/settings/general.php:301
+#: includes/class-wp-statistics-menus.php:207
+msgid "Search Engines"
+msgstr "Vyhledávače"
+
+#: includes/admin/templates/settings/general.php:285
+msgid "Hide Admin Notices About Non-active Features:"
+msgstr "Skrýt admin oznámení o neaktivních vlastnostech:"
+
+#: includes/admin/templates/optimization/resources.php:84
+#: includes/admin/templates/optimization/resources.php:100
+#: includes/admin/templates/settings/general.php:276
+msgid "Yes"
+msgstr "Ano"
+
+#: includes/admin/templates/optimization/resources.php:86
+#: includes/admin/templates/optimization/resources.php:102
+#: includes/admin/templates/settings/general.php:277
+msgid "No"
+msgstr "Ne"
+
+#: includes/admin/templates/settings/general.php:271
+msgid "Show Stats in Menu Bar:"
+msgstr "Zobrazit statistiky v menu baru:"
+
+#: includes/admin/templates/settings/general.php:266
+msgid "Miscellaneous"
+msgstr "Různé"
+
+#: includes/admin/templates/settings/general.php:135
+msgid "Track All Pages:"
+msgstr "Sledovat všechny stránky:"
+
+#: includes/admin/class-wp-statistics-admin-network.php:65
+msgid "Pages"
+msgstr "Stránky"
+
+#: includes/admin/templates/settings/privacy.php:36
+msgid "Store Entire User Agent String:"
+msgstr "Uložení celé identifikační řetězec prohlížeče:"
+
+#: includes/admin/templates/settings/general.php:40
+msgid "Record All Users:"
+msgstr "Zaznament všechny uživatele:"
+
+#: includes/admin/templates/settings/general.php:34
+msgid "Time for checking out accurate online users on the site. Now: %s Seconds"
+msgstr "Čas pro přesnou kontrolu online uživatelů na stránce. Nyní: %s sekund"
+
+#: includes/admin/templates/settings/general.php:33
+msgid "Seconds"
+msgstr "Sekundy"
+
+#: includes/admin/templates/settings/general.php:28
+msgid "Check for Online Users Every:"
+msgstr "Kontrola online uživatelů každých:"
+
+#: includes/admin/templates/settings/general.php:140
+msgid "Enable or disable this feature"
+msgstr "Zapnout nebo vypnout tuto vlastnost"
+
+#: includes/admin/templates/settings/externals.php:275
+msgid "Download of the Matomo Referrer Spam Blacklist database will be scheduled for once a week."
+msgstr "Stahování Matomo Referrer Spam Blacklist databáze bude provedeno jednou za týden."
+
+#: includes/admin/templates/settings/externals.php:254
+msgid "Schedule weekly update of Matomo Referrer Spam Blacklist DB:"
+msgstr "Týdenní plán aktualizace Matomo Referrer Spam Blacklist DB:"
+
+#: includes/admin/templates/settings/externals.php:224
+msgid "Matomo Referrer Spam Blacklist Usage:"
+msgstr "Použití Matomo Referrer Spam Blacklistu:"
+
+#: includes/admin/templates/settings/externals.php:218
+msgid "Referrer spam blacklist is provided by Matomo, available from %s."
+msgstr "Referrer spam blacklist je poskytován společností Matomo, dostupný z %s."
+
+#: includes/admin/templates/settings/externals.php:212
+msgid "Matomo Referrer Spam Blacklist Settings"
+msgstr "Nastavení Matomo Referrer Spam Blacklistu"
+
+#: includes/admin/templates/settings/externals.php:151
+msgid "PHP safe mode detected! GeoIP collection is not supported with PHP's safe mode enabled!"
+msgstr "Zjištěn PHP nouzový režim! GeoIP kolekce není podporován s PHP je nouzový režim povolen!"
+
+#: includes/admin/templates/settings/externals.php:145
+msgid "GeoIP collection requires the BC Math PHP extension and it is not loaded on your version of PHP!"
+msgstr "GeoIP kolekce vyžaduje BC Math PHP rozšíření a to není nahrané ve Vaší verzi PHP!"
+
+#: includes/admin/templates/settings/externals.php:139
+msgid "GeoIP collection requires the cURL PHP extension and it is not loaded on your version of PHP!"
+msgstr "GeoIP kolekce vyžaduje cURL PHP rozšíření a to není nahrané ve Vaší verzi PHP!"
+
+#: includes/admin/templates/settings/externals.php:135
+msgid "GeoIP collection is disabled due to the following reasons:"
+msgstr "Kolekce GeoIP je zakázáno z následujících důvodů:"
+
+#: includes/admin/templates/settings/externals.php:121
+msgid "Country Code for Private IP Addresses:"
+msgstr "Kód země pro privátní IP adresy:"
+
+#: includes/admin/templates/settings/externals.php:109
+msgid "Populate Missing GeoIP After Updating GeoIP DB:"
+msgstr "Vyplnit chybějící  GeoIP po aktualizaci GeoIP DB:"
+
+#: includes/admin/templates/settings/externals.php:103
+msgid "This option will also download the database if the local filesize is less than 1k (which usually means the stub that comes with the plugin is still in place)."
+msgstr "Tato možnost bude také stáhnout databáze, je-li místní velikost souboru je menší než 1 KB (což obvykle znamená, že se zakázaným inzerováním, který je dodáván s plugin je stále na svém místě)."
+
+#: includes/admin/templates/settings/externals.php:102
+msgid "Download of the GeoIP database will be scheduled for 2 days after the first Tuesday of the month."
+msgstr "Stažení databáze GeoIP bude naplánováno na 2 dny po první úterý v měsíci."
+
+#: includes/admin/templates/settings/externals.php:78
+#: includes/admin/templates/settings/externals.php:262
+msgid "Next update will be"
+msgstr "Další update bude"
+
+#: includes/admin/templates/settings/externals.php:70
+msgid "Schedule Monthly Update of GeoIP DB:"
+msgstr "Naplánovat měsíční aktualizaci GeoIP DB:"
+
+#: includes/admin/templates/settings/externals.php:37
+msgid "GeoIP Collection:"
+msgstr "GeoIP kolekce:"
+
+#: includes/admin/templates/settings/externals.php:6
+msgid "GeoIP Settings"
+msgstr "GeoIP nastavení"
+
+#: includes/admin/templates/settings/exclusions.php:211
+msgid "You can add a list of local URLs (i.e.  /wordpress/about, one per line) to exclude from statistics collection."
+msgstr "Seznam lokálních URL  (př. /wordpress/about, jeden na řádek) pro vyřazení ze statistik."
+
+#: includes/admin/templates/settings/exclusions.php:204
+msgid "Exclude any URL that returns a \"404 - Not Found\" message."
+msgstr "Vyloučit URL která vrací zprávu \"404 - Nenalezeno\" ."
+
+#: includes/admin/templates/settings/exclusions.php:201
+msgid "Excluded 404 Pages:"
+msgstr "Vyjmuté 404 stránky:"
+
+#: includes/admin/templates/settings/exclusions.php:197
+msgid "Exclude the RSS feeds for registering as a hit."
+msgstr "Vyloučiť RSS kanály z registrace zobrazení."
+
+#: includes/admin/templates/settings/exclusions.php:194
+msgid "Excluded RSS Feeds:"
+msgstr "Vyjmuté RSS zdroje:"
+
+#: includes/admin/templates/settings/exclusions.php:190
+msgid "Exclude the login page for registering as a hit."
+msgstr "Vylučte přihlašovací stránku pro registraci jako hit."
+
+#: includes/admin/templates/settings/exclusions.php:187
+msgid "Excluded Login Page:"
+msgstr "Vyloučené přihlašovací stránka:"
+
+#: includes/admin/templates/settings/exclusions.php:183
+msgid "Site URL Exclusions"
+msgstr "URL vyjímky"
+
+#: includes/admin/templates/settings/exclusions.php:173
+msgid "Note: This option will NOT perform a reverse DNS lookup on each page load but instead cache the provided hostnames’ IP address for one hour. If you exclude dynamically assigned hosts, you may find some overlap when the host changes its IP address and when the cache is updated, resulting in some hits recorded."
+msgstr "Poznámka: Tato možnost NEBUDE provádět reverzní vyhledávání DNS při každém načtení stránky, ale místo toho ukládá IP adresu poskytnutých názvů hostitelů do mezipaměti po dobu jedné hodiny. Pokud vyloučíte dynamicky přidělované hostitele, může dojít k určitému překrývání, když hostitel změní svou IP adresu a když se aktualizuje mezipaměť, což povede k zaznamenání některých záznamů."
+
+#: includes/admin/templates/settings/exclusions.php:172
+msgid "You can add a list of fully qualified host names (i.e. server.example.com, one per line) to exclude from statistics collection."
+msgstr "Seznam plných hostname (Př. server.example.com, jeden na řádek) vyloučených ze sběru statistických údajů."
+
+#: includes/admin/templates/settings/exclusions.php:165
+msgid "Host Exclusions"
+msgstr "Host vyjímka"
+
+#: includes/admin/templates/settings/exclusions.php:140
+msgid "GeoIP Exclusions"
+msgstr "GeoIP Vyjímky"
+
+#: includes/admin/templates/settings/exclusions.php:130
+msgid "Treat any visitor with corrupt browser info (missing IP address or empty user agent string) as a robot."
+msgstr "Považovat návštěvníka s porušenými daty prohlížeče (chybějící adresa nebo prázdný řetězec agenta) jako robot:"
+
+#: includes/admin/templates/settings/exclusions.php:126
+msgid "Treat Corrupt Browser Info as a Bot:"
+msgstr "Považovat narušená data prohlížeče ja bot:"
+
+#: includes/admin/templates/settings/exclusions.php:120
+msgid "Create a new Honey Pot page"
+msgstr "Vytvořit novou Honey Pot stránku"
+
+#: includes/admin/templates/settings/exclusions.php:91
+msgid "Excluded IP Address List:"
+msgstr "Vyloučené seznam adres IP:"
+
+#: includes/admin/templates/settings/exclusions.php:86
+msgid "Treat visitors with more than this number of visits per day as robots. 0 = disabled."
+msgstr "Rozlišuj návštevníky s počtem návštěv za den víc jako toto číslo robotů. 0 = vypnuté."
+
+#: includes/admin/templates/settings/exclusions.php:82
+msgid "Robot Visit Threshold:"
+msgstr "Prah návštěv pro roboty:"
+
+#: includes/admin/templates/settings/exclusions.php:72
+msgid "Force Robot List Update After Upgrades:"
+msgstr "Vynutit robota seznamu aktualizaci po inovaci:"
+
+#: includes/admin/templates/settings/exclusions.php:66
+msgid "Reset to Default"
+msgstr "Reset do Defaultního nastavení"
+
+#: includes/admin/templates/settings/exclusions.php:65
+msgid "It is a list of words (one per line) to match against to detect robots. Entries must be at least four characters long, or they will be ignored."
+msgstr "Seznam slov, (jeden na řádek) porovnávat odhalit roboty. Položky musí být dlouhé nejméně 4 znaky, nebo budou ignorovány."
+
+#: includes/admin/templates/settings/exclusions.php:54
+msgid "Robot List:"
+msgstr "Seznam robotů:"
+
+#: includes/admin/templates/settings/exclusions.php:50
+msgid "IP/Robot Exclusions"
+msgstr "IP/Robot vyjímky"
+
+#: includes/admin/templates/settings/exclusions.php:39
+msgid "Exclude %s role from data collection."
+msgstr "Vylučte úlohu %s ze sběru údajů."
+
+#: includes/admin/templates/settings/exclusions.php:38
+#: includes/admin/templates/settings/exclusions.php:189
+#: includes/admin/templates/settings/exclusions.php:196
+#: includes/admin/templates/settings/exclusions.php:203
+msgid "Exclude"
+msgstr "Vyjímka"
+
+#: includes/admin/templates/settings/exclusions.php:22
+msgid "Exclude User Roles"
+msgstr "Vyloučení rolí uživatelů"
+
+#: includes/admin/templates/settings/exclusions.php:11
+#: includes/admin/templates/settings/exclusions.php:75
+#: includes/admin/templates/settings/exclusions.php:110
+#: includes/admin/templates/settings/exclusions.php:129
+#: includes/admin/templates/settings/externals.php:43
+#: includes/admin/templates/settings/externals.php:60
+#: includes/admin/templates/settings/externals.php:75
+#: includes/admin/templates/settings/externals.php:114
+#: includes/admin/templates/settings/externals.php:229
+#: includes/admin/templates/settings/externals.php:259
+#: includes/admin/templates/settings/general.php:21
+#: includes/admin/templates/settings/general.php:45
+#: includes/admin/templates/settings/general.php:66
+#: includes/admin/templates/settings/general.php:86
+#: includes/admin/templates/settings/general.php:97
+#: includes/admin/templates/settings/general.php:108
+#: includes/admin/templates/settings/general.php:128
+#: includes/admin/templates/settings/general.php:139
+#: includes/admin/templates/settings/general.php:155
+#: includes/admin/templates/settings/general.php:193
+#: includes/admin/templates/settings/general.php:205
+#: includes/admin/templates/settings/general.php:246
+#: includes/admin/templates/settings/general.php:290
+#: includes/admin/templates/settings/general.php:311
+#: includes/admin/templates/settings/general.php:356
+#: includes/admin/templates/settings/maintenance.php:24
+#: includes/admin/templates/settings/maintenance.php:58
+#: includes/admin/templates/settings/notifications.php:43
+#: includes/admin/templates/settings/notifications.php:55
+#: includes/admin/templates/settings/notifications.php:76
+#: includes/admin/templates/settings/notifications.php:190
+#: includes/admin/templates/settings/privacy.php:18
+#: includes/admin/templates/settings/privacy.php:29
+#: includes/admin/templates/settings/privacy.php:41
+#: includes/admin/templates/settings/privacy.php:53
+msgid "Enable"
+msgstr "Zapnout"
+
+#: includes/admin/templates/settings/exclusions.php:9
+msgid "Record Exclusions:"
+msgstr "Vyloučení záznamů:"
+
+#: includes/admin/pages/class-wp-statistics-admin-page-settings.php:357
+msgid "This is the Honey Pot for WP Statistics to use, do not delete."
+msgstr "Toto je Honey Pot používaný ve WP Statistiky, neodstraňujte."
+
+#: includes/admin/pages/class-wp-statistics-admin-page-settings.php:356
+msgid "WP Statistics Honey Pot Page"
+msgstr "WP Statistiky Honey Pot stránka"
+
+#: includes/admin/templates/settings/access-level.php:81
+#: includes/admin/templates/settings/exclusions.php:219
+#: includes/admin/templates/settings/externals.php:242
+#: includes/admin/templates/settings/externals.php:282
+#: includes/admin/templates/settings/general.php:365
+#: includes/admin/templates/settings/maintenance.php:78
+#: includes/admin/templates/settings/notifications.php:198
+#: includes/admin/templates/settings/overview-display.php:54
+#: includes/admin/templates/settings/privacy.php:62
+#: includes/admin/templates/settings/reset.php:23
+#: includes/admin/templates/settings/visitor-ip.php:158
+msgid "Update"
+msgstr "Aktualizovat"
+
+#: includes/admin/templates/settings/access-level.php:72
+msgid "Each of the above cascades the rights upwards in the default WordPress configuration. For example, selecting publish_posts grants the right to Authors, Editors, Admins, and Super Admins."
+msgstr "Každý z výše uvedených casscades práva směrem nahoru v WordPress výchozí konfiguraci. Tak například výběrem publish_posts uděluje právo autorů, redaktoři, administrátoři a Super Admins."
+
+#: includes/admin/templates/settings/access-level.php:71
+msgid "Hint: manage_network = Super Admin Network, manage_options = Administrator, edit_others_posts = Editor, publish_posts = Author, edit_posts = Contributor, read = Everyone."
+msgstr "Tip: manage_network = Super Admin síť, manage_options = správce, edit_others_posts = Editor, publish_posts = autor, edit_posts = přispěvatel, číst = všichni."
+
+#: includes/admin/templates/settings/access-level.php:61
+msgid "Required User Level to Manage WP Statistics:"
+msgstr "Uživatelská úroveň pro správu statistiky WP:"
+
+#: includes/admin/templates/settings/access-level.php:40
+msgid "Required User Level to View WP Statistics:"
+msgstr "Požadována uživatelská úrověn k prohlížení WP Statistik:"
+
+#: includes/admin/templates/settings/about.php:156
+msgid "Still not having any luck?"
+msgstr "Ještě nemají žádné štěstí?"
+
+#: includes/admin/templates/settings/about.php:153
+msgid "Have you checked your PHP and web server error logs?"
+msgstr "Zkontrolovali jste protokolů chyb serveru PHP a web?"
+
+#: includes/admin/templates/settings/about.php:143
+msgid "Do you have all the required PHP extensions installed?"
+msgstr "Máte instalované všechny vyžadované PHP rozšíření?"
+
+#: includes/admin/templates/settings/about.php:142
+msgid "Have you double checked the plugin settings?"
+msgstr "Zkontrolovali jste dvojí nastavení pluginu?"
+
+#: includes/admin/templates/settings/about.php:141
+msgid "Have you tried using the default WordPress theme?"
+msgstr "Už jste vyzkoušeli pomocí výchozí WordPress téma?"
+
+#: includes/admin/templates/settings/about.php:137
+msgid "Have you tried disabling any other plugins you may have installed?"
+msgstr "Už jste vyzkoušeli, zakázání jiné pluginy, které jste nainstalovali?"
+
+#: includes/admin/templates/settings/about.php:136
+msgid "How's your memory_limit in php.ini?"
+msgstr "Jak máš nastaven memory_limit v php.ini?"
+
+#: includes/admin/templates/settings/about.php:133
+msgid "And a few things to double-check:"
+msgstr "A pár věcí na dvakrát:"
+
+#: includes/admin/templates/settings/about.php:130
+msgid "Make sure you have access to your PHP error logs."
+msgstr "Ujistěte se, že máte plný přístup k PHP chybovým záznamům."
+
+#: includes/admin/templates/settings/about.php:126
+msgid "Have you search the Internet for any error messages you are receiving?"
+msgstr "Už jste Hledat na internetu pro všechny chybové zprávy, které obdržíte?"
+
+#: includes/admin/templates/settings/about.php:110
+msgid "FAQs"
+msgstr "Nejčastější dotazy"
+
+#: includes/admin/templates/settings/about.php:101
+msgid "We're sorry you're having problem with WP Statistics and we're happy to help out. Here are a few things to do before contacting us:"
+msgstr "Máte problémy s WP Statistics a my jsme rádi pomohli. Zde je pár věci na práci než se obrátíte na nás:"
+
+#: includes/admin/templates/settings/about.php:96
+msgid "Support"
+msgstr "Podpora"
+
+#: includes/admin/templates/settings/about.php:81
+msgid "Translations"
+msgstr "Překlady"
+
+#: includes/admin/templates/settings/about.php:65
+msgid "Rate and Review at WordPress.org"
+msgstr "Ohodnoť a prohlédni WordPress.org"
+
+#: includes/admin/templates/settings/about.php:55
+msgid "Come visit our great new %swebsite%s and keep up to date on the latest news about WP Statistics."
+msgstr "Přijděte navštívit naše skvělé %sstránky%s a zůstaňte informovaní o  nejnovějších novinkácj ohledně WP Statistiky."
+
+#: includes/admin/templates/settings/about.php:50
+msgid "Visit Us Online"
+msgstr "Navštivte nás Online"
+
+#: includes/admin/templates/settings/about.php:35
+msgid "Donate"
+msgstr "Darovat"
+
+#: includes/admin/templates/settings/about.php:14
+msgid "WP Statistics v%s"
+msgstr "WP Statistiky V%s"
+
+#: includes/admin/templates/layout/tabs-optimization.php:7
+msgid "Historical"
+msgstr "Historické"
+
+#: includes/admin/templates/layout/tabs-optimization.php:6
+msgid "Updates"
+msgstr "Aktualizace"
+
+#: includes/admin/templates/layout/tabs-optimization.php:5
+msgid "Database"
+msgstr "Databáze"
+
+#: includes/admin/templates/layout/tabs-optimization.php:4
+msgid "Purging"
+msgstr "Pročištění"
+
+#: includes/admin/templates/layout/tabs-optimization.php:2
+msgid "Resources/Information"
+msgstr "Zdroje/Informace"
+
+#: includes/admin/pages/class-wp-statistics-admin-page-optimization.php:65
+msgid "Install routine complete."
+msgstr "Instalujte kompletní rutina."
+
+#: includes/admin/pages/class-wp-statistics-admin-page-optimization.php:57
+msgid "IP Addresses replaced with hash values."
+msgstr "IP adresy nahrazeny hodnoty hash."
+
+#: includes/admin/templates/optimization/updates.php:37
+msgid "Replace IP addresses in the database with hash values, you will not be able to recover the IP addresses in the future to populate location information afterwards and this may take a while"
+msgstr "Nahradit hodnoty hash, adresy IP v databázi nebude možné obnovit adresy IP v budoucnu k vyplnění informací o umístění později a to může chvíli trvat"
+
+#: includes/admin/templates/optimization/updates.php:31
+#: includes/admin/templates/settings/privacy.php:25
+msgid "Hash IP Addresses:"
+msgstr "Algoritmus hash IP adresy:"
+
+#: includes/admin/templates/optimization/updates.php:26
+msgid "IP Addresses"
+msgstr "Adresy IP"
+
+#: includes/admin/templates/optimization/updates.php:20
+msgid "Updates any unknown location data in the database, this may take a while"
+msgstr "Aktualizuje všechny neznámé lokalizační údaje v databázi, to může chvíli trvat"
+
+#: includes/admin/templates/optimization/updates.php:9
+msgid "GeoIP Options"
+msgstr "GeoIP Vlastnosti"
+
+#: includes/admin/templates/optimization/updates.php:36
+msgid "This will replace all IP addresses in the database with hash values and cannot be undo, are you sure?"
+msgstr "To nahradí všechny IP adresy v databázi hodnoty hash a nemůže být zpět, jste si jisti?"
+
+#: includes/admin/templates/optimization/resources.php:282
+msgid "The detected client platform."
+msgstr "Detekovaná platforma klienta."
+
+#: includes/admin/templates/optimization/resources.php:271
+msgid "The detected client browser version."
+msgstr "Deteková verze prohlížeče klienta."
+
+#: includes/admin/templates/optimization/resources.php:260
+msgid "The detected client browser."
+msgstr "Detekovaný prohlížeč klienta."
+
+#: includes/admin/class-wp-statistics-admin-assets.php:287
+#: includes/admin/meta-box/wp-statistics-meta-box-browsers.php:139
+#: includes/admin/templates/optimization/resources.php:252
+#: includes/admin/templates/pages/online.php:12
+#: includes/admin/templates/pages/refer.url.php:33
+#: includes/admin/templates/pages/top-visitors.php:19
+#: includes/admin/templates/pages/visitors.php:26
+#: includes/admin/templates/pages/words.php:27
+msgid "Browser"
+msgstr "Prohlížeč"
+
+#: includes/admin/templates/optimization/resources.php:246
+msgid "The client user agent string."
+msgstr "Řetězec agenta uživatele klienta."
+
+#: includes/admin/templates/optimization/resources.php:241
+msgid "User Agent"
+msgstr "Uživatelský agent"
+
+#: includes/admin/templates/optimization/resources.php:235
+msgid "The client IP address."
+msgstr "Klientovo IP adresa"
+
+#: includes/admin/templates/optimization/resources.php:230
+msgid "Client IP"
+msgstr "Klient IP"
+
+#: includes/admin/templates/optimization/resources.php:225
+msgid "Client Info"
+msgstr "Klient Info"
+
+#: includes/admin/templates/optimization/resources.php:215
+msgid "The file size and date of the GeoIP database."
+msgstr "Velikost souboru a datum GeoIP databáze."
+
+#: includes/admin/templates/optimization/resources.php:210
+msgid ", created on "
+msgstr ", na "
+
+#: includes/admin/templates/optimization/resources.php:208
+msgid "Database file does not exist."
+msgstr "Databáze neexistuje"
+
+#: includes/admin/templates/optimization/resources.php:199
+msgid "GeoIP Database"
+msgstr "GeoIP databáze"
+
+#: includes/admin/templates/optimization/resources.php:194
+msgid "File Info"
+msgstr "Informace o souboru"
+
+#: includes/admin/templates/optimization/resources.php:149
+#: includes/admin/templates/optimization/resources.php:165
+#: includes/admin/templates/optimization/resources.php:181
+#: src/Service/Admin/AddOnDecorator.php:140
+msgid "Not installed"
+msgstr "Neinstalováno"
+
+#: includes/admin/templates/optimization/resources.php:147
+#: includes/admin/templates/optimization/resources.php:163
+#: includes/admin/templates/optimization/resources.php:179
+msgid "Installed"
+msgstr "Instalováno"
+
+#: includes/admin/templates/optimization/resources.php:135
+msgid "The PHP cURL Extension version you are running. cURL is required for the GeoIP code, if it is not installed GeoIP will be disabled."
+msgstr "PHP cURL Extension verze kterou používáte.  cURL je požadováno pro GeoIP kód, jestliže neni instalování GeoIP bude vypnuté."
+
+#: includes/admin/templates/optimization/resources.php:132
+msgid "cURL not installed"
+msgstr "cURL není instalováno"
+
+#: includes/admin/templates/optimization/resources.php:124
+msgid "cURL Version"
+msgstr "cURL Verze"
+
+#: includes/admin/templates/optimization/resources.php:118
+msgid "The jQuery version you are running."
+msgstr " Query verze kterou používáte."
+
+#: includes/admin/templates/optimization/resources.php:110
+msgid "jQuery Version"
+msgstr "jQuery Verze"
+
+#: includes/admin/templates/optimization/resources.php:89
+msgid "Is PHP Safe Mode active. The GeoIP code is not supported in Safe Mode."
+msgstr "Je PHP nouzovém režimu aktivní. GeoIP kód není podporován v nouzovém režimu."
+
+#: includes/admin/templates/optimization/resources.php:79
+msgid "PHP Safe Mode"
+msgstr "PHP Bezpečný mód"
+
+#: includes/admin/templates/optimization/resources.php:73
+msgid "The PHP version you are running."
+msgstr "PHP verze kterou používáte."
+
+#: includes/admin/templates/optimization/resources.php:68
+msgid "PHP Version"
+msgstr "PHP Verze"
+
+#: includes/admin/templates/optimization/resources.php:62
+msgid "The WP Statistics version you are running."
+msgstr "Používáte verzi WP Statistics."
+
+#: includes/admin/templates/optimization/resources.php:57
+msgid "WP Statistics Version"
+msgstr "WP Statistics Verze"
+
+#: includes/admin/templates/optimization/resources.php:52
+msgid "Version Info"
+msgstr "Verze info"
+
+#: includes/admin/templates/optimization/resources.php:39
+msgid "Number of rows"
+msgstr "Počet řádků"
+
+#: includes/admin/templates/optimization/resources.php:38
+msgid "Row"
+msgid_plural "Rows"
+msgstr[0] "Řádek"
+msgstr[1] ""
+msgstr[2] ""
+
+#: includes/admin/templates/optimization/resources.php:35
+msgid "Number of rows in the %s table"
+msgstr "Počet řádků v tabulce %s"
+
+#: includes/admin/templates/optimization/resources.php:26
+msgid "The memory limit a script is allowed to consume, set in php.ini."
+msgstr "Limit paměti skriptu je dovoleno konzumovat, v php.ini."
+
+#: includes/admin/templates/optimization/resources.php:21
+msgid "PHP Memory Limit"
+msgstr "PHP Paměť Limit"
+
+#: includes/admin/templates/optimization/resources.php:11
+#: includes/admin/templates/optimization/resources.php:15
+msgid "Memory usage in PHP"
+msgstr "Využití paměti v PHP"
+
+#: includes/admin/templates/optimization/resources.php:6
+msgid "Resources"
+msgstr "Zdroje"
+
+#: includes/admin/templates/optimization/purging.php:311
+msgid "All visitor data will be lost for this platform type."
+msgstr "Všechna data návštěvníků budou ztraceny pro tento typ platformy."
+
+#: includes/admin/templates/optimization/purging.php:294
+msgid "Delete Platforms:"
+msgstr "Vymazat platformy:"
+
+#: includes/admin/templates/optimization/purging.php:286
+#: includes/admin/templates/optimization/purging.php:312
+#: includes/admin/templates/optimization/purging.php:327
+msgid "Delete now!"
+msgstr "Smazat nyní!"
+
+#: includes/admin/templates/optimization/purging.php:285
+msgid "All visitor data will be lost for this agent type."
+msgstr "Všechna data návštěvníků budou ztraceny pro tento typ agenta."
+
+#: includes/admin/templates/optimization/purging.php:270
+msgid "Delete Agents:"
+msgstr "Smazat Agenty:"
+
+#: includes/admin/templates/optimization/purging.php:265
+msgid "Delete User Agent Types"
+msgstr "Odstranit typy uživatelských agentů"
+
+#: includes/admin/templates/optimization/purging.php:245
+msgid "Purge visitors with more than:"
+msgstr "Odstranit návštěvníke s více jak:"
+
+#: includes/admin/templates/optimization/purging.php:237
+#: includes/admin/templates/optimization/purging.php:253
+msgid "Purge now!"
+msgstr "Pročistit nyní!"
+
+#: includes/admin/templates/optimization/purging.php:229
+msgid "Purge records older than:"
+msgstr "Pročistit záznamy starší než:"
+
+#: includes/admin/templates/optimization/purging.php:221
+msgid "Clear now!"
+msgstr "Vyčistit nyní!"
+
+#: includes/admin/templates/optimization/purging.php:220
+msgid "All data table will be lost."
+msgstr "Všechna data budou ztracena!"
+
+#: includes/admin/templates/optimization/purging.php:206
+msgid "Empty Table:"
+msgstr "Prázdná tabulka:"
+
+#: includes/admin/templates/optimization/purging.php:201
+msgid "Data"
+msgstr "Data"
+
+#: includes/admin/templates/optimization/purging.php:10
+#: includes/admin/templates/optimization/purging.php:42
+#: includes/admin/templates/optimization/purging.php:73
+#: includes/admin/templates/optimization/purging.php:104
+#: includes/admin/templates/optimization/purging.php:137
+#: includes/admin/templates/optimization/purging.php:170
+msgid "Are you sure?"
+msgstr "Jste si jistý?"
+
+#: includes/admin/templates/optimization/historical.php:41
+msgid "Number of historical number of visits to the site (current value is %s)."
+msgstr "Historický počet návštěv stránek (aktuální hodnota je %s)."
+
+#: includes/admin/templates/optimization/historical.php:31
+msgid "Number of historical number of visitors to the site (current value is %s)."
+msgstr "Historický počet návštěvníků stránek (aktuální hodnota je %s)."
+
+#: includes/admin/class-wp-statistics-admin-assets.php:261
+#: includes/admin/class-wp-statistics-admin-assets.php:281
+#: includes/admin/class-wp-statistics-admin-network.php:66
+#: includes/admin/pages/class-wp-statistics-admin-page-visitors.php:32
+#: includes/admin/templates/optimization/historical.php:27
+#: includes/admin/templates/pages/hits.php:25
+#: includes/admin/templates/settings/general.php:77
+#: includes/admin/TinyMCE/class-wp-statistics-tinymce.php:38
+#: includes/class-wp-statistics-menus.php:186
+#: includes/class-wp-statistics-shortcode.php:170
+msgid "Visitors"
+msgstr "Návštěvníci"
+
+#: includes/admin/templates/optimization/historical.php:21
+msgid "Note: As you have just purged the database you must reload this page for these numbers to be correct."
+msgstr "Poznámka: Pokud jste právě vyčistili databázi, musíte znovu načíst tuto stránku, aby byly údaje správné"
+
+#: includes/admin/templates/optimization/historical.php:16
+msgid "Historical Values"
+msgstr "Historické hodnoty"
+
+#: includes/admin/templates/optimization/export.php:56
+msgid "Start Now!"
+msgstr "Start Nyní!"
+
+#: includes/admin/templates/optimization/export.php:55
+msgid "Include a header row as the first line of the exported file."
+msgstr "Zahrnout řádek záhlaví jako první řádek v exportovaném souboru."
+
+#: includes/admin/templates/optimization/export.php:50
+msgid "Include Header Row:"
+msgstr "Zahrnout řádek záhlaví:"
+
+#: includes/admin/templates/optimization/export.php:44
+msgid "Select the output file type."
+msgstr "Vyber typ výstupní souboru."
+
+#: includes/admin/templates/optimization/export.php:33
+msgid "Export To:"
+msgstr "Exportovat do:"
+
+#: includes/admin/templates/optimization/export.php:27
+msgid "Select the table for the output file."
+msgstr "Vyberte tabulku pro výstupní soubor."
+
+#: includes/admin/templates/optimization/database.php:41
+#: includes/admin/templates/optimization/export.php:19
+#: includes/admin/templates/optimization/export.php:38
+#: includes/admin/templates/optimization/purging.php:211
+#: includes/admin/templates/optimization/purging.php:275
+#: includes/admin/templates/optimization/purging.php:299
+#: includes/admin/templates/settings/exclusions.php:118
+#: includes/admin/templates/settings/general.php:222
+#: includes/admin/templates/settings/notifications.php:93
+#: includes/admin/templates/settings/notifications.php:128
+msgid "Please select"
+msgstr "Prosím vyber"
+
+#: includes/admin/templates/optimization/export.php:14
+msgid "Export from:"
+msgstr "Export od:"
+
+#: includes/admin/templates/layout/tabs-optimization.php:3
+#: includes/admin/templates/optimization/export.php:9
+msgid "Export"
+msgstr "Export"
+
+#: includes/admin/templates/optimization/historical.php:48
+#: includes/admin/templates/optimization/updates.php:19
+#: includes/admin/templates/optimization/updates.php:36
+msgid "Update Now!"
+msgstr "!Aktualizovat nyní"
+
+#: includes/admin/class-wp-statistics-admin-network.php:67
+#: includes/class-wp-statistics-menus.php:214
+msgid "Countries"
+msgstr "Země"
+
+#: includes/admin/templates/optimization/database.php:18
+msgid "If for some reason your installation of WP Statistics is missing the database tables or other core items, this will re-execute the install process."
+msgstr "Pokud z nějakého důvodu instalace WP Statistics chybí, databázové tabulky nebo jiné položky jádro, to bude znovu provést instalačního procesu."
+
+#: includes/admin/templates/optimization/database.php:17
+msgid "Install Now!"
+msgstr "Nainstalujte nyní!"
+
+#: includes/admin/templates/optimization/database.php:13
+msgid "Re-run Install:"
+msgstr "Spusťte znovu instalaci:"
+
+#: includes/admin/templates/optimization/database.php:8
+msgid "Database Setup"
+msgstr "Nastavení databáze"
+
+#: includes/admin/class-wp-statistics-admin-assets.php:294
+#: includes/admin/templates/optimization/resources.php:266
+msgid "Version"
+msgstr "Verze"
+
+#: includes/admin/class-wp-statistics-admin-assets.php:292
+msgid "Agent"
+msgstr "Agent"
+
+#: includes/admin/class-wp-statistics-admin-assets.php:289
+#: includes/admin/templates/pages/online.php:19
+#: includes/admin/templates/pages/refer.url.php:32
+#: includes/admin/templates/pages/top-visitors.php:27
+#: includes/admin/templates/pages/visitors.php:39
+#: includes/admin/templates/pages/words.php:35
+msgid "IP"
+msgstr "IP"
+
+#: includes/admin/class-wp-statistics-admin-network.php:60
+#: includes/admin/class-wp-statistics-admin-post.php:60
+#: includes/admin/class-wp-statistics-admin-post.php:156
+#: includes/admin/class-wp-statistics-admin-taxonomy.php:56
+#: includes/admin/class-wp-statistics-admin-taxonomy.php:63
+#: includes/admin/templates/optimization/purging.php:250
+#: includes/admin/templates/pages/top-visitors.php:31
+#: includes/admin/templates/pages/visitors.php:41
+#: includes/admin/templates/settings/maintenance.php:70
+#: includes/class-wp-statistics-menus.php:172
+msgid "Hits"
+msgstr "Zhlédnutí"
+
+#: includes/admin/meta-box/wp-statistics-meta-box-summary.php:35
+msgid "(Adjustment)"
+msgstr "(Nastavení)"
+
+#: includes/admin/meta-box/wp-statistics-meta-box-summary.php:34
+msgid "Current Time and Date"
+msgstr "Aktuální čas a datum"
+
+#: includes/admin/class-wp-statistics-admin-assets.php:274
+msgid "Daily Total"
+msgstr "Denně celkem"
+
+#: includes/admin/class-wp-statistics-admin-assets.php:264
+#: includes/admin/class-wp-statistics-admin-assets.php:297
+#: includes/admin/TinyMCE/class-wp-statistics-tinymce.php:55
+msgid "Yesterday"
+msgstr "Včera"
+
+#: includes/admin/class-wp-statistics-admin-assets.php:263
+#: includes/admin/class-wp-statistics-admin-assets.php:296
+#: includes/admin/class-wp-statistics-admin-assets.php:407
+#: includes/admin/TinyMCE/class-wp-statistics-tinymce.php:54
+msgid "Today"
+msgstr "Dnes"
+
+#: includes/admin/class-wp-statistics-admin-assets.php:285
+msgid "Address"
+msgstr "Adresa"
+
+#: includes/admin/meta-box/wp-statistics-meta-box-browsers.php:98
+msgid "Other"
+msgstr "Ostatní"
+
+#: includes/admin/class-wp-statistics-admin-assets.php:275
+#: includes/admin/templates/pages/refer.url.php:37
+#: includes/admin/templates/pages/top-visitors.php:2
+#: includes/admin/templates/pages/top-visitors.php:26
+#: includes/admin/templates/pages/visitors.php:35
+#: includes/admin/templates/pages/words.php:34
+msgid "Date"
+msgstr "Datum"
+
+#: includes/admin/meta-box/wp-statistics-meta-box-referring.php:49
+#: includes/admin/templates/pages/top.refer.php:27
+msgid "References"
+msgstr "Odkazy"
+
+#: includes/admin/class-wp-statistics-admin-assets.php:262
+#: includes/admin/class-wp-statistics-admin-assets.php:291
+#: includes/admin/class-wp-statistics-admin-user.php:33
+#: includes/admin/templates/optimization/historical.php:37
+#: includes/admin/templates/pages/hits.php:23
+#: includes/admin/templates/pages/pages.php:46
+#: includes/admin/templates/settings/general.php:56
+#: includes/admin/TinyMCE/class-wp-statistics-tinymce.php:37
+#: includes/class-wp-statistics-shortcode.php:169
+msgid "Visits"
+msgstr "Návštěvy"
+
+#: includes/admin/meta-box/wp-statistics-meta-box-post.php:61
+msgid "Number of Hits"
+msgstr "Počet zhlédnutí"
+
+#: includes/class-wp-statistics-meta-box.php:192
+msgid "Top Pages"
+msgstr "Nejlepší stránky"
+
+#: includes/admin/class-wp-statistics-admin-assets.php:280
+#: includes/admin/templates/pages/online.php:14
+#: includes/admin/templates/pages/refer.url.php:35
+#: includes/admin/templates/pages/top-visitors.php:21
+#: includes/admin/templates/pages/top.refer.php:25
+#: includes/admin/templates/pages/visitors.php:28
+#: includes/admin/templates/pages/words.php:29
+msgid "Country"
+msgstr "Země"
+
+#: includes/admin/class-wp-statistics-admin-assets.php:279
+msgid "Flag"
+msgstr "Počet návštěvníků"
+
+#: includes/admin/pages/class-wp-statistics-admin-page-country.php:36
+#: includes/admin/templates/pages/page-chart.php:43
+#: includes/class-wp-statistics-meta-box.php:136
+msgid "Top Countries"
+msgstr "Top zemí"
+
+#: includes/admin/pages/class-wp-statistics-admin-page-searches.php:34
+msgid "Search Engine Referral Statistics"
+msgstr "Vyhledávací Engine referenční Statistika"
+
+#: includes/admin/class-wp-statistics-admin-assets.php:260
+#: includes/admin/pages/class-wp-statistics-admin-page-online.php:25
+#: includes/admin/templates/pages/page-chart.php:73
+#: includes/admin/templates/settings/general.php:11
+#: includes/admin/TinyMCE/class-wp-statistics-tinymce.php:36
+#: includes/class-wp-statistics-meta-box.php:240
+#: includes/class-wp-statistics-shortcode.php:168
+#: includes/class-wp-statistics-widget.php:41
+#: includes/class-wp-statistics-widget.php:264
+msgid "Online Users"
+msgstr "Online uživatelé"
+
+#: includes/admin/class-wp-statistics-admin-notices.php:99
+msgid "Donate Now!"
+msgstr "Darovat nyní!"
+
+#: includes/admin/class-wp-statistics-admin-notices.php:99
+msgid "Have you thought about donating to WP Statistics?"
+msgstr "Už jste přemýšleli o podpoře pro WP Statistiky?"
+
+#: includes/admin/class-wp-statistics-admin-assets.php:295
+#: includes/admin/templates/pages/online.php:21
+#: includes/admin/templates/pages/visitors.php:46
+msgid "Page"
+msgstr "Stránka"
+
+#: includes/admin/templates/pages/online.php:51
+#: includes/admin/templates/pages/refer.url.php:55
+#: includes/admin/templates/pages/top-visitors.php:60
+#: includes/admin/templates/pages/visitors.php:68
+#: includes/admin/templates/settings/overview-display.php:32
+msgid "Map"
+msgstr "Mapa"
+
+#: includes/admin/class-wp-statistics-admin-assets.php:318
+#: includes/admin/class-wp-statistics-admin-template.php:237
+#: includes/admin/pages/class-wp-statistics-admin-page-category.php:60
+#: includes/admin/pages/class-wp-statistics-admin-page-tags.php:61
+#: includes/admin/pages/class-wp-statistics-admin-page-visitors.php:54
+#: includes/admin/pages/class-wp-statistics-admin-page-words.php:44
+#: includes/admin/templates/layout/select.php:32
+#: includes/admin/templates/optimization/database.php:47
+#: includes/admin/templates/optimization/purging.php:217
+#: includes/admin/templates/pages/refer.url.php:3
+#: includes/admin/templates/pages/top.refer.php:4
+#: includes/class-wp-statistics-widget.php:326
+msgid "All"
+msgstr "Všechno"
+
+#: includes/admin/templates/pages/exclusions.php:31
+#: includes/admin/templates/pages/hits.php:37
+msgid "All Time Total:"
+msgstr "Celkem:"
+
+#: includes/admin/templates/pages/exclusions.php:26
+#: includes/admin/templates/pages/hits.php:29
+msgid "Chart Total:"
+msgstr "Graf celkem:"
+
+#: includes/admin/class-wp-statistics-admin-network.php:70
+#: includes/admin/templates/layout/tabs-settings.php:9
+#: includes/admin/templates/pages/exclusions.php:22
+#: includes/admin/templates/settings/exclusions.php:5
+#: includes/class-wp-statistics-menus.php:263
+#: includes/class-wp-statistics-meta-box.php:280
+msgid "Exclusions"
+msgstr "Vyjímky"
+
+#: includes/admin/pages/class-wp-statistics-admin-page-exclusions.php:35
+msgid "Exclusions Statistics"
+msgstr "Vyloučení statistiky"
+
+#: includes/class-wp-statistics-exclusion.php:26
+msgid "Referrer Spam"
+msgstr "Odkazující spam"
+
+#: includes/class-wp-statistics-exclusion.php:29
+msgid "Excluded URL"
+msgstr "Vyjmutá URL"
+
+#: includes/class-wp-statistics-exclusion.php:34
+msgid "Robot threshold"
+msgstr "Robot threshold"
+
+#: includes/class-wp-statistics-exclusion.php:31
+msgid "Host name"
+msgstr "Hostname"
+
+#: includes/class-wp-statistics-exclusion.php:32
+msgid "GeoIP"
+msgstr "GeoIP"
+
+#: includes/admin/class-wp-statistics-admin-assets.php:273
+#: includes/admin/TinyMCE/class-wp-statistics-tinymce.php:59
+msgid "Total"
+msgstr "Celkem"
+
+#: includes/class-wp-statistics-exclusion.php:30
+msgid "User Role"
+msgstr "Role uživatele"
+
+#: includes/class-wp-statistics-exclusion.php:24
+#: includes/class-wp-statistics-pages.php:368
+msgid "Login Page"
+msgstr "Přihlašovací stránka"
+
+#: includes/class-wp-statistics-exclusion.php:23
+msgid "Self Referral"
+msgstr "Sebe odkazující"
+
+#: includes/class-wp-statistics-exclusion.php:22
+msgid "IP Match"
+msgstr "IP shoda"
+
+#: includes/class-wp-statistics-exclusion.php:20
+msgid "Robot"
+msgstr "Robot"
+
+#: includes/admin/class-wp-statistics-admin-assets.php:293
+#: includes/admin/templates/optimization/resources.php:277
+#: includes/admin/templates/pages/top-visitors.php:28
+#: includes/admin/templates/pages/visitors.php:40
+msgid "Platform"
+msgstr "Platforma"
+
+#: includes/admin/class-wp-statistics-admin-assets.php:277
+#: includes/admin/class-wp-statistics-admin-network.php:68
+#: includes/class-wp-statistics-menus.php:242
+msgid "Browsers"
+msgstr "Prohlížeče"
+
+#: includes/admin/pages/class-wp-statistics-admin-page-browsers.php:37
+msgid "Browser Statistics"
+msgstr "Statistiky prohlížečů"
+
+#: includes/class-wp-statistics-purge.php:173
+msgid "Please select a value over 30 days."
+msgstr "Prosím vyber hodnotu nad 30 dní."
+
+#: includes/class-wp-statistics-purge.php:48
+#: includes/class-wp-statistics-purge.php:78
+#: includes/class-wp-statistics-purge.php:89
+#: includes/class-wp-statistics-purge.php:99
+#: includes/class-wp-statistics-purge.php:161
+msgid "No records found to purge from %s!"
+msgstr "Žádné záznamy nalezeny očistit od %s!"
+
+#: includes/class-wp-statistics-purge.php:46
+#: includes/class-wp-statistics-purge.php:76
+#: includes/class-wp-statistics-purge.php:87
+#: includes/class-wp-statistics-purge.php:97
+#: includes/class-wp-statistics-purge.php:159
+msgid "%s data older than %s days purged successfully."
+msgstr "%s data starší než %s dnφ úspěšně vyprázdněna."
+
+#: includes/class-wp-statistics-purge.php:167
+#: includes/class-wp-statistics-purge.php:168
+#: includes/class-wp-statistics-purge.php:230
+#: includes/class-wp-statistics-purge.php:231
+msgid "Database pruned on"
+msgstr "Databáze vyčistěná"
+
+#: includes/class-wp-statistics-purge.php:221
+msgid "No visitors found to purge."
+msgstr "Nebyli nalezeny žádní návštěvníci k odstranění."
+
+#: includes/class-wp-statistics-purge.php:217
+msgid "%s records purged successfully."
+msgstr "%s záznamů  úspěšně odstraněných"
+
+#: includes/class-wp-statistics-geoip.php:448
+msgid "Updated %s GeoIP records in the visitors database."
+msgstr "Aktualizovat %s GeoIP záznamy v databázi návětěvníků."
+
+#: includes/class-wp-statistics-geoip.php:417
+msgid "Unable to load the GeoIP database, make sure you have downloaded it in the settings page."
+msgstr "Nemožné nahrát GeoIP databázi, zajistěte stažení v nastavení."
+
+#: includes/class-wp-statistics-db.php:138
+msgid "Error, %s not emptied!"
+msgstr "Chyba, %s není vyprázdněno!"
+
+#: includes/class-wp-statistics-db.php:134
+msgid "%s table data deleted successfully."
+msgstr "data tabulky %s úspěšně smazána."
+
+#: includes/admin/class-wp-statistics-admin-assets.php:312
+msgid "Go"
+msgstr "Jdi"
+
+#: includes/admin/class-wp-statistics-admin-assets.php:310
+msgid "to"
+msgstr "do"
+
+#: includes/admin/class-wp-statistics-admin-template.php:231
+msgid "1 Year"
+msgstr "1 Rok"
+
+#: includes/admin/class-wp-statistics-admin-template.php:230
+msgid "9 Months"
+msgstr "9 Měsíců"
+
+#: includes/admin/class-wp-statistics-admin-template.php:229
+msgid "6 Months"
+msgstr "6 Měsíců"
+
+#: includes/admin/class-wp-statistics-admin-template.php:228
+msgid "3 Months"
+msgstr "3 Měsíce"
+
+#: includes/admin/class-wp-statistics-admin-template.php:227
+msgid "2 Months"
+msgstr "2 Měsíce"
+
+#: includes/admin/class-wp-statistics-admin-template.php:226
+msgid "30 Days"
+msgstr "30 Dnů"
+
+#: includes/admin/class-wp-statistics-admin-template.php:225
+msgid "20 Days"
+msgstr "20 Dnů"
+
+#: includes/admin/class-wp-statistics-admin-template.php:224
+msgid "10 Days"
+msgstr "10 Dnů"
+
+#: includes/class-wp-statistics-search-engine.php:107
+msgid "Yandex"
+msgstr "Yandex"
+
+#: includes/class-wp-statistics-search-engine.php:97
+msgid "Yahoo!"
+msgstr "Yahoo!"
+
+#: includes/class-wp-statistics-search-engine.php:87
+msgid "Google"
+msgstr "Google"
+
+#: includes/class-wp-statistics-search-engine.php:77
+msgid "DuckDuckGo"
+msgstr "DuckDuckGo"
+
+#: includes/class-wp-statistics-search-engine.php:67
+msgid "clearch.org"
+msgstr "clearch.org"
+
+#: includes/class-wp-statistics-search-engine.php:57
+msgid "Bing"
+msgstr "Bing"
+
+#: includes/class-wp-statistics-search-engine.php:47
+msgid "Baidu"
+msgstr "Baidu"
+
+#: includes/class-wp-statistics-search-engine.php:37
+msgid "Ask.com"
+msgstr "Ask.com"
+
+#: includes/admin/meta-box/wp-statistics-meta-box-hits.php:79
+msgid "Hits in the last %s days"
+msgstr "Zhlédnutí za posledních %s dní"
+
+#: includes/admin/meta-box/wp-statistics-meta-box-post.php:21
+msgid "This post is not yet published."
+msgstr "Tento příspěvek není ještě zveřejněn."
+
+#: includes/admin/pages/class-wp-statistics-admin-page-words.php:36
+msgid "Latest Search Words"
+msgstr "Poslední vyhledávaný slova"
+
+#: includes/class-wp-statistics-meta-box.php:87
+msgid "Summary"
+msgstr "Souhrn"
+
+#: includes/admin/meta-box/wp-statistics-meta-box-summary.php:33
+#: includes/class-wp-statistics-meta-box.php:178
+#: includes/class-wp-statistics-widget.php:118
+#: includes/class-wp-statistics-widget.php:308
+msgid "Search Engine Referrals"
+msgstr "Vyhledávací Engine odkazy"
+
+#: includes/admin/pages/class-wp-statistics-admin-page-refer.php:37
+msgid "Top Referring Sites"
+msgstr "Nejlepší odkazující stránky"
+
+#: includes/admin/pages/class-wp-statistics-admin-page-visitors.php:32
+#: includes/class-wp-statistics-meta-box.php:220
+msgid "Recent Visitors"
+msgstr "Aktuální návštěvníci"
+
+#: includes/admin/pages/class-wp-statistics-admin-page-hits.php:34
+#: includes/class-wp-statistics-meta-box.php:164
+#: includes/class-wp-statistics-meta-box.php:264
+msgid "Hit Statistics"
+msgstr "Statistika zhlédnutí"
+
+#: includes/class-wp-statistics-meta-box.php:80
+msgid "Quick Stats"
+msgstr "Rychlé statistiky"
+
+#: includes/admin/class-wp-statistics-admin-ajax.php:284
+#: includes/class-wp-statistics-purge.php:224
+msgid "Number of hits must be greater than or equal to 10!"
+msgstr "Počet zhlédnutí musí být vyšší nebo rovný 10!"
+
+#: includes/admin/class-wp-statistics-admin-ajax.php:146
+msgid "No platform data found to remove!"
+msgstr "Nebyly nalezená žádné data platformy na odstránění!"
+
+#: includes/admin/class-wp-statistics-admin-ajax.php:144
+msgid "%s platform data deleted successfully."
+msgstr "údaje platforma %s úspěšně smazána."
+
+#: includes/admin/class-wp-statistics-admin-ajax.php:115
+#: includes/admin/class-wp-statistics-admin-ajax.php:152
+#: includes/admin/class-wp-statistics-admin-ajax.php:188
+#: includes/admin/class-wp-statistics-admin-ajax.php:219
+#: includes/admin/class-wp-statistics-admin-ajax.php:235
+#: includes/admin/class-wp-statistics-admin-ajax.php:260
+#: includes/admin/class-wp-statistics-admin-ajax.php:289
+#: includes/admin/class-wp-statistics-admin-ajax.php:386
+msgid "Access denied!"
+msgstr "Přístup zakázán!"
+
+#: includes/admin/class-wp-statistics-admin-ajax.php:112
+#: includes/admin/class-wp-statistics-admin-ajax.php:149
+#: includes/admin/class-wp-statistics-admin-ajax.php:185
+#: includes/admin/class-wp-statistics-admin-ajax.php:207
+msgid "Please select the desired items."
+msgstr "Prosím vyber požadované položky."
+
+#: includes/admin/class-wp-statistics-admin-ajax.php:109
+msgid "No agent data found to remove!"
+msgstr "Nebyly nalezeny žádné data agentů na odstranění!"
+
+#: includes/admin/class-wp-statistics-admin-ajax.php:107
+msgid "%s agent data deleted successfully."
+msgstr "%s data agenta úspěšně smazány."
